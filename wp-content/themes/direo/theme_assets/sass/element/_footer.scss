@@ -1,0 +1,125 @@
+/* footer three */
+.footer-three{
+  .footer-bottom {
+    .footer-bottom--content {
+      p{
+        margin:0;
+      }
+    }
+  }
+}
+.footer-three{
+  .footer-top{
+    border-top: 1px solid $border-color;
+    .widget{
+      margin-bottom: remy(40px);
+    }
+  }
+  .footer-bottom{
+    padding: 0;
+    .footer-bottom--content{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: remy(22px) 0;
+      border-top: 1px solid $border-color;
+      .footer-logo{
+        display: inline-block;
+        img{
+          max-width: 120px;
+        }
+      }
+      p{
+        span, i{
+          @extend .color-primary;
+        }
+      }
+      .lng-list{
+        margin:0;
+        flex: 1;
+        text-align: right;
+        a{
+          border: 1px solid $border-color;
+          line-height: remy(32px);
+          display: inline-block;
+          padding: 0 remy(12px);
+          border-radius: 2px;
+          color: $body-color;
+        }
+      }
+    }
+  }
+  &.footer-dark{
+    background: #1c1c26;
+    color: rgba(#fff, 0.4);
+    .sidebar-post .post-single .post-title, .atbd_categorized_listings .listings > li .cate_title h4 a{
+      color: rgba(#fff, 0.4);
+      &:hover{
+        color: $primary;
+      }
+    }
+    .atbd_categorized_listings .listings > li {
+      border-bottom: 1px solid #2f3030;
+    }
+    .widget-default .widget-header .widget-title{
+      color: #fff;
+    }
+    .widget{
+      .widget-title, .atbd_widget_title h4{
+        color: #fff;
+      }
+      a{
+        color: rgba(#fff, 0.4);
+        &:hover{
+          color: $primary;
+        }
+        &.btn-primary{
+          color: #fff;
+        }
+      }
+      .default-ad-search form label{
+        color: $body-color;
+      }
+      .atbdp-widget-tags a{
+        &:hover{
+          color: #fff !important;
+        }
+      }
+    }
+    .social-list li span.instagram i{
+      background: rgba(#000, 0.3);
+    }
+    .widget_text{
+      .store-btns{
+        li{
+          margin-right: 10px;
+          &:last-child{
+            margin-right: 0;
+          }
+          a.bg-dark{
+            background: #141621 !important;
+            color: #fff;
+            border-color: #141621;
+          }
+        }
+      }
+    }
+    .footer-bottom{
+      border-top: 0;
+      .footer-bottom--content{
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        .lng-list{
+          a{
+            border: 1px solid rgba(255, 255, 255, 0.1);
+          }
+        }
+        p a{
+          color: rgba(#fff, 0.4);
+          &:hover{
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+}

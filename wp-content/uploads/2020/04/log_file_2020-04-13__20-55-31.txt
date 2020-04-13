@@ -1,0 +1,69 @@
+
+---Downloaded files---
+The import files for: Elementor Demo Content were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/directorio
+Data file = C:\xampp\htdocs\directorio/wp-content/themes/direo/ocdi/elementor-content.xml
+Widget file = C:\xampp\htdocs\directorio/wp-content/themes/direo/ocdi/widgets.wie
+Customizer file = C:\xampp\htdocs\directorio/wp-content/themes/direo/ocdi/customizer.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Single Listing Widgets : 
+
+Directorist - Author Info - Author Info - Widget already exists
+Directorist - Claim Listing - Claim Now - Widget already exists
+Directorist - Categories - Category with Icon - Widget already exists
+Directorist - Tags - Tags Style - Widget already exists
+Directorist - Map (Single Listing) - Sidebar Map - Widget already exists
+Directorist - Video - Sidebar Video - Widget already exists
+Directorist - Custom Contact Form - Sidebar Form - Widget already exists
+
+All Listing Widgets  : 
+
+Directorist - Search Listings - Search Listing - Widget already exists
+
+Shop Page Widgets : 
+
+Buscar - No Title - Widget already exists
+Entradas recientes - No Title - Widget already exists
+Comentarios recientes - No Title - Widget already exists
+
+Blog Widgets : 
+
+Archivos - No Title - Widget already exists
+Categorías - No Title - Widget already exists
+Meta - No Title - Widget already exists
+-[Search] - No Title - Widget already exists
+-[Popular Blog] - Popular Post - Widget already exists
+-[Latest Blog] - Recent Post - Widget already exists
+Nube de etiquetas - Popular Tags - Widget already exists
+-[Subscribe] - Stay Updated - Widget already exists
+-[Social Icon] - Connect &amp; Follow - Widget already exists
+
+Footer Widgets 1 : 
+
+Menú de Navegación - Helpful Links - Widget already exists
+
+Footer Widgets 2 : 
+
+Menú de Navegación - Company Info - Widget already exists
+
+Footer Widgets 3 : 
+
+-[Social Icon &amp; Title] - Connect with Us - Widget already exists
+
+Footer Widgets 4 : 
+
+Texto - Direo on Mobile - Widget already exists
+-[Button] - No Title - Widget already exists
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

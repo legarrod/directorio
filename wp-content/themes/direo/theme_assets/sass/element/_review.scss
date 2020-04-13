@@ -1,0 +1,432 @@
+// .directory_listiing_detail_area
+.atbd_review_module {
+    .atbd_content_module__tittle_area {
+        padding: 1rem 2rem;
+    }
+
+    #client_review_list .atbd_single_review {
+        border-bottom: 1px solid $border-color;
+        margin-bottom: 2rem;
+        padding-bottom: 25px;
+
+        .atbd_review_top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex: wrap;
+
+            .atbd_avatar_wrapper {
+                display: flex;
+                align-items: center;
+
+
+                .atbd_review_avatar{
+                    width: 60px;
+                    img {
+                        border-radius: 100%;
+                        margin-top: 0;
+                    }
+                }
+
+                .atbd_name_time {
+                    margin-left: 1rem;
+
+                    p {
+                        margin: 0;
+                        font-weight: 500;
+                        color: #272b41;
+                        font-size: 15px;
+                        line-height: 1.6875rem;
+
+                    }
+
+                    span {
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: $text-light;
+                    }
+                }
+            }
+
+            .atbd_rated_stars {
+                ul {
+                    display: flex;
+
+                    li {
+                        list-style: none;
+                        font-size: .93333rem;
+                    }
+                }
+            }
+        }
+
+        .review_content {
+            margin-top: 1.33333rem;
+
+            p {
+                margin: 0;
+                font-size: 15px;
+                line-height: 28px;
+                font-weight: 400;
+            }
+
+            .reply {
+                display: inline-block;
+                margin-top: .66667rem;
+
+                span {
+                    margin-right: .33333rem;
+                }
+            }
+        }
+
+        .review_reply_form {
+            margin-left: 3.33333rem;
+            margin-top: 2rem;
+            text-align: right;
+            display: none;
+
+            &.active {
+                display: flex;
+            }
+
+            .atbd_review_avatar {
+                margin-right: 1rem;
+
+                img {
+                    border-radius: 100%;
+                }
+            }
+
+            form {
+                flex: 1;
+            }
+
+            textarea {
+                width: 100%;
+                height: 6.66667rem;
+                box-shadow: none;
+            }
+
+            .btn {
+                margin-top: 1rem;
+            }
+        }
+
+        .media-depth2 {
+            margin-left: 3.33333rem;
+            margin-top: 2rem;
+
+            .atbd_single_review:last-child {
+                margin-bottom: 0;
+                padding-bottom: 0;
+                border-bottom: 0;
+            }
+        }
+        &:last-child{
+            margin: 0;
+            padding: 0;
+            border: 0 none;
+        }
+    }
+
+    .review_pagination .pagination {
+        margin: 0;
+
+        .page-item {
+            margin-right: .4rem;
+
+            .page-link {
+                -webkit-border-radius: 3px;
+                border-radius: 3px;
+                padding: .53333rem .8rem;
+                color: $dark;
+                font-size: .93333rem;
+
+                &:hover {
+                    color: $white;
+                }
+            }
+
+            &.active .page-link {
+                color: $white;
+            }
+        }
+    }
+}
+
+.atbd_content_module.atbd_review_module {
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .atbd_content_module__tittle_area {
+        padding: 0 2rem;
+        border-bottom: 1px solid $border-lighter;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .atbd_area_title {
+            position: relative;
+
+            h4 {
+                display: flex;
+                align-items: center;
+
+                span {
+                    color: $dark;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+
+                span.atbd_area_icon {
+                    color: #9299b8;
+                    font-size: 18px;
+                    margin-right: .53333rem;
+                    font-weight: 400;
+                    position: unset;
+                }
+            }
+        }
+
+        label.btn {
+            font-size: 13px !important;
+            line-height: 40px;
+            padding: 0 17px;
+            margin: 0;
+        }
+    }
+
+    .atbdb_content_module_contents {
+        padding: 2rem;
+    }
+}
+
+.atbd_review_module {
+    .review_pagination .pagination {
+        margin: 0;
+
+        .page-item {
+            margin-right: .4rem;
+
+            .page-link {
+                -webkit-border-radius: 3px;
+                border-radius: 3px;
+                padding: .53333rem .8rem;
+                color: $dark;
+                font-size: .93333rem;
+
+                &:hover {
+                    color: $white;
+                }
+            }
+
+            &.active .page-link {
+                color: $white;
+            }
+        }
+    }
+}
+
+.atbd_content_module {
+    .atbd_give_review_area .atbd_notice {
+        color: $contact;
+
+        span {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 1.73333rem;
+            height: 1.73333rem;
+            border-radius: 20rem;
+            color: $white;
+            margin-right: .33333rem;
+        }
+
+        a {
+            font-weight: 700;
+        }
+    }
+
+    .atbd_review_rating_area {
+        .atbd_rating_label{
+            margin-bottom: 10px;
+        }
+        .atbd_review_update_rating {
+            display: inline-flex;
+            align-items: center;
+            border: 1px solid $border-light;
+            padding: .66667rem 1.66667rem .8rem;
+            border-radius: 2px;
+            margin-bottom: 1.33333rem;
+
+            .atbd_rating_label {
+                margin-bottom: 0;
+            }
+
+            .atbd_rating_stars {
+                .br-widget {
+                    height: auto;
+                    margin-left: 15px;
+
+                    .br-current-rating {
+                        display: inline-block;
+                        margin-left: 1.33333rem;
+                    }
+                }
+            }
+        }
+
+        .form-group textarea {
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            padding: 1rem;
+            min-height: 10rem;
+        }
+
+        .atbd_upload_btn_wrap {
+            margin-top: 1.33333rem;
+
+            .atbd_upload_btn {
+                background: $light;
+                border: 1px solid $border-color;
+
+                span {
+                    margin-right: .53333rem;
+                    font-size: 1.06667rem;
+                }
+            }
+
+            #file_name {
+                margin-left: .66667rem;
+            }
+        }
+
+        #atbdp_review_form_submit {
+            margin-top: .46667rem;
+        }
+    }
+}
+
+.br-theme-fontawesome-stars {
+    .br-widget {
+        height: 28px;
+        white-space: nowrap;
+
+        a {
+            font-family: "Line Awesome Free";
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            text-decoration: none;
+            margin-right: 2px;
+            font-weight: 900;
+
+            &:after {
+                content: "\f005";
+                color: $gray-100;
+            }
+
+            &.br-active:after,
+            &.br-selected:after {
+                color: $warning;
+            }
+        }
+
+        .br-current-rating {
+            display: none;
+        }
+    }
+
+    .br-readonly a {
+        cursor: default;
+    }
+}
+
+//review pagination
+
+.atbdp-pagination-navagination-nav{
+    padding: 0 25px;
+}
+
+.atbdp-universal-pagination,
+.atbdp__user__needs{
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: -5px;
+        padding: 0;
+        li{
+            margin: 5px;
+            padding: 0 10px;
+            border: 1px solid $border-lighter;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 28px;
+            min-width: 28px;
+            border-radius: 3px;
+            transition: 0.3s ease;
+            background: #fff;
+            i{
+                line-height: 28px;
+            }
+            &.atbd-active{
+                cursor: pointer;
+                &:hover{
+                    border-color: $primary;
+                    color: $primary;
+                }
+            }
+            &.atbd-selected{
+                border-color: $primary;
+                color: $primary;
+            }
+            &.atbd-inactive{
+                opacity: 0.7;
+            }
+            &[class^="atbd-page-jump-"]{
+                min-width: 30px;
+                min-height: 30px;
+                position: relative;
+                cursor: pointer;
+                .la{
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                .la_h{
+                    visibility: hidden;
+                    opacity: 0;
+                    left: 70%;
+                    transition: 0.3s ease;
+                }
+                .la_d{
+                    visibility: visible;
+                    opacity: 1;
+                    transition: 0.3s ease;
+                }
+                &:hover{
+                    color: $primary;
+                    .la_h{
+                        visibility: visible;
+                        opacity: 1;
+                        left: 50%;
+                    }
+                    .la_d{
+                        visibility: hidden;
+                        opacity: 0;
+                        left: 30%;
+                    }
+                }
+            }
+        }
+    }
+}
+.directory_listiing_detail_area .atbdp-universal-pagination ul li:last-child{
+    margin-bottom: 5px !important;
+}

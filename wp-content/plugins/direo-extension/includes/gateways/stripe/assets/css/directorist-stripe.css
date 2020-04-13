@@ -1,0 +1,261 @@
+#atbdp_cc_form  form {
+    width: 100%;
+    margin: 20px 0;
+}
+
+#atbdp_cc_form  .group {
+    background: white;
+/*    box-shadow: 0 7px 14px 0 rgba(49,49,93,0.10),
+    0 3px 6px 0 rgba(0,0,0,0.08);*/
+    border:1px solid rgba(185, 181, 181, 0.18);
+    border-radius: 4px;
+    margin: 20px 0 20px;
+    border-left:none;
+    border-right: none;
+}
+
+#atbdp_cc_form label {
+    position: relative;
+    color: #8898AA;
+    font-weight: 300;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#atbdp_cc_form .group label{
+    display: flex;
+    flex-wrap: wrap;
+}
+.directorist .group label:not(:last-child) {
+    border-bottom: 1px solid #F0F5FA;
+}
+
+#atbdp_cc_form label > span {
+    width: 120px;
+    margin-right: 30px;
+}
+
+#atbdp_cc_form .field {
+    background: transparent;
+    font-weight: 300;
+    border: 0;
+    color: #31325F;
+    outline: none;
+    flex: 1;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: text;
+}
+
+#atbdp_cc_form .field::-webkit-input-placeholder { color: #CFD7E0; }
+#atbdp_cc_form .field::-moz-placeholder { color: #CFD7E0; }
+
+#atbdp_cc_form button {
+    float: left;
+    display: block;
+    background: #666EE8;
+    color: white;
+    box-shadow: 0 7px 14px 0 rgba(49,49,93,0.10),
+    0 3px 6px 0 rgba(0,0,0,0.08);
+    border-radius: 4px;
+    border: 0;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    height: 40px;
+    line-height: 38px;
+    outline: none;
+}
+
+#atbdp_cc_form button:focus {
+    background: #555ABF;
+}
+
+#atbdp_cc_form button:active {
+    background: #43458B;
+}
+
+#atbdp_cc_form .outcome {
+    float: left;
+    width: 100%;
+    padding-top: 8px;
+    min-height: 24px;
+    text-align: center;
+}
+
+#atbdp_cc_form .success, #atbdp_cc_form #atbdp_checkout_errors {
+    display: none;
+    font-size: 13px;
+}
+
+#atbdp_cc_form .success.visible, #atbdp_cc_form #atbdp_checkout_errors.visible {
+    display: inline;
+}
+
+#atbdp_cc_form #atbdp_checkout_errors {
+    color: #E4584C;
+}
+
+#atbdp_cc_form .success {
+    color: #666EE8;
+}
+
+#atbdp_cc_form .success .token {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+.StripeElement {
+    box-sizing: border-box;
+
+    height: 40px;
+
+    padding: 10px 12px;
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+
+
+/**
+* The CSS shown here will not be introduced in the Quickstart guide, but
+* shows how you can use CSS to style your Element's container.
+*/
+input,
+.StripeElement {
+    height: 40px;
+    padding: 10px 12px;
+
+    color: #32325d;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+input:focus,
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+
+
+
+.atds_stripe_wrapper{
+    border: 1px solid #eee;
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.atds_stripe_wrapper #card-element{
+    border: 1px solid #eee;
+}
+.atds_stripe_wrapper .atds_stripe_btn{
+    display: block;
+    padding: 10px 15px;
+    background: #444752;
+    color: #fff;
+    width: 100%;
+    border: 0 none;
+    margin-top: 10px;
+}
+.atds_stripe_wrapper .atds_stripe_btn.atds_stirpe_load{
+    position: relative;
+}
+.atds_stripe_wrapper .atds_stripe_btn.atds_stirpe_load:after {
+    content: '';
+    right: 33%;
+    top: 50%;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-animation: rotate360 0.5s infinite linear, exist 0.1s forwards ease;
+    animation: rotate360 0.5s infinite linear, exist 0.1s forwards ease;
+}
+.atds_stripe_wrapper .atds_stripe_btn.atds_stirpe_load:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    right: 33%;
+    top: 50%;
+    position: absolute;
+    border: 2px solid #000000;
+    border-right: 3px solid #27ae60;
+    -webkit-animation: rotate360 0.5s infinite linear, exist 0.1s forwards ease;
+    animation: rotate360 0.5s infinite linear, exist 0.1s forwards ease;
+}
+@-webkit-keyframes rotate360 {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate360 {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes exist {
+    100% {
+        width: 15px;
+        height: 15px;
+        margin: -8px 5px 0 0;
+    }
+}
+@keyframes exist {
+    100% {
+        width: 15px;
+        height: 15px;
+        margin: -8px 5px 0 0;
+    }
+}
+
+
+@media (max-width: 767px)   {
+    #atbdp_cc_form .group label span{
+        width: 100%;
+    }
+    #atbdp_cc_form label{
+        height: auto;
+    }
+    #atbdp_cc_form #card-element{
+        padding-left: 0;
+    }
+}

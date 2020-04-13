@@ -1,0 +1,130 @@
+// testimonial carousel
+.testimonial-wrapper{
+  margin-top: remy(-10px);
+}
+.testimonial-carousel{
+  position: relative;
+  .carousel-single{
+    text-align: center;
+    .author-thumb{
+      display: inline-block;
+      margin-bottom: remy(9px);
+    }
+    .author-info{
+      span{
+        font-size: remy(14px);
+        color: $text-grey2;
+        display: block;
+        margin-top: 5px;
+      }
+    }
+    .author-comment{
+      width: remy(700px);
+      margin: remy(25px) auto 0;
+      font-size: remy(17px);
+      line-height: remy(29px);
+      color: $text-grey2;
+    }
+  }
+  .owl-nav{
+    button{
+      width: remy(50px);
+      height: remy(50px);
+      background: #fff;
+      box-shadow: 0 5px remy(15px) rgba($light-gray, .15);
+      border-radius: remy(300px);
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: $transition-base;
+      outline: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      span{
+        font-size: remy(18px);
+      }
+      &:hover{
+        @extend .color-primary;
+      }
+      &.owl-prev{
+        left:remy(15px);
+      }
+      &.owl-next{
+        right: remy(15px);
+      }
+    }
+  }
+}
+
+//logo carousel
+.logo-carousel{
+  .owl-stage{
+    display: flex;
+    align-items: center;
+  }
+  .carousel-single{
+    img{
+      width: 100%;
+    }
+  }
+}
+
+//listing carousel
+.listing-carousel{
+  position: relative;
+  padding: 0 25px;
+  .atbdp_column{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .owl-nav{
+    visibility: hidden;
+    opacity: 0;
+    transition: $transition-base;
+    button{
+      width: 50px;
+      height: 50px;
+      border-radius: 50% !important;
+      background: #fff !important;
+      color: $body-color;
+      font-size: 18px;
+      box-shadow: 0 5px 15px rgba(#9299b8, 0.15);
+      border: 0 none;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      &.owl-prev{
+        left: 0;
+      }
+      &.owl-next{
+        right: 0;
+      }
+    }
+  }
+  .owl-dots{
+    text-align: center;
+    .owl-dot{
+      width: 10px;
+      height: 10px;
+      border-radius: 50% !important;
+      background: rgba($primary, 0.2);
+      margin: 0 3px !important;
+      border: 0 none;
+      display: inline-block;
+      &.active{
+        background: $primary;
+      }
+      &:focus{
+        outline: 0 !important;
+      }
+    }
+  }
+  &:hover{
+    .owl-nav{
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}

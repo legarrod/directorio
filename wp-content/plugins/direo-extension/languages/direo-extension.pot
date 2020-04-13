@@ -1,0 +1,2745 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Direo Extension\n"
+"POT-Creation-Date: 2020-03-29 19:15+0600\n"
+"PO-Revision-Date: 2019-05-16 16:27+0600\n"
+"Last-Translator: \n"
+"Language-Team: AazzTech\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e;"
+"esc_attr_x;_x;_ex;_n;_x:1,2c;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: direo-extension.php:97
+msgid "Monetize Using"
+msgstr ""
+
+#: direo-extension.php:101
+#: includes/claim-listing/directorist-claim-listing.php:476
+#: includes/plans/directorist-pricing-plans.php:1355
+#: includes/plans/directorist-pricing-plans.php:1357
+#: includes/plans/directorist-pricing-plans.php:1404
+#: includes/plans/directorist-pricing-plans.php:1422
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:785
+msgid "Pricing Plans"
+msgstr ""
+
+#: direo-extension.php:105
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:1076
+msgid "WooCommerce Pricing Plans"
+msgstr ""
+
+#: direo-extension.php:109
+msgid "None"
+msgstr ""
+
+#: direo-extension.php:169 direo-extension.php:182
+#: includes/business-hours/bd-business-hour.php:537
+#: includes/business-hours/bd-business-hour.php:550
+#: includes/claim-listing/directorist-claim-listing.php:107
+#: includes/claim-listing/directorist-claim-listing.php:120
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:795
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:808
+#: includes/directorist-listings-map/directorist-listings-map.php:107
+#: includes/directorist-listings-map/directorist-listings-map.php:119
+#: includes/faqs/directorist-faqs.php:85 includes/faqs/directorist-faqs.php:98
+#: includes/plans/directorist-pricing-plans.php:126
+#: includes/plans/directorist-pricing-plans.php:139
+#: includes/social-login/directorist-social-login.php:233
+#: includes/social-login/directorist-social-login.php:246
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:1336
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:1349
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/business-hours/assets/js/moment.min.js:1
+#: includes/faqs/assets/js/moment.min.js:1
+msgid ": "
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:589
+#: includes/business-hours/bd-business-hour.php:686
+#: includes/business-hours/widgets/class-widget.php:42
+msgid "Open 24/7"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:590
+#: includes/business-hours/bd-business-hour.php:654
+#: includes/business-hours/bd-business-hour.php:679
+#: includes/business-hours/bd-business-hour.php:742
+#: includes/business-hours/widgets/class-widget.php:51
+#: includes/business-hours/widgets/class-widget.php:89
+msgid "Business Hour"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:660
+msgid "Business Hour Settings"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:661
+msgid "You can Customize all the settings of Business Hour Extension here"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:666
+msgid "Open Badge Text"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:667
+#: includes/directorist-listings-map/inc/helper.php:715
+#: includes/directorist-listings-map/inc/helper.php:723
+#: includes/directorist-listings-map/templates/view/listings/grid.php:196
+msgid "Open Now"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:672
+msgid "Closed Badge Text"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:673
+msgid "Closed Now"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:678
+msgid "Title for Business Hour"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:684
+msgid "24/7 Type Listing Description"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:685
+msgid ""
+"You can set the text for listing that is open 24 hours a day and 7 days a "
+"week here."
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:691
+msgid "Time Format"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:695
+#: includes/business-hours/bd-business-hour.php:704
+msgid "12 Hours"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:699
+msgid "24 Hours"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:710
+msgid "Default Timezone"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:712
+msgid "America/New_York"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:717
+msgid "Display Business Hours on Single Listing"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:743
+msgid "Allow users add and display business hour for a listing."
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:782
+#: includes/business-hours/bd-business-hour.php:1282
+msgid "Open"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:794
+msgid "Open 24/7 in a week"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:1244
+msgid "Closed"
+msgstr ""
+
+#: includes/business-hours/bd-business-hour.php:1253
+msgid "Open 24h"
+msgstr ""
+
+#: includes/business-hours/config.php:23 includes/claim-listing/config.php:27
+#: includes/directorist-google-recaptcha/config.php:23
+#: includes/faqs/config.php:23 includes/plans/config.php:26
+#: includes/social-login/config.php:25
+msgid "You do not have the right to access this file directly"
+msgstr ""
+
+#: includes/business-hours/templates/business-hour-fields.php:18
+msgid "Hide business hours"
+msgstr ""
+
+#: includes/business-hours/templates/business-hour-fields.php:23
+msgid "Is this listing open 24 hours 7 days a week?"
+msgstr ""
+
+#: includes/business-hours/templates/business-hour-fields.php:29
+msgid "Monday"
+msgstr ""
+
+#: includes/business-hours/templates/business-hour-fields.php:31
+msgid "Tuesday"
+msgstr ""
+
+#: includes/business-hours/templates/business-hour-fields.php:33
+msgid "Wednesday"
+msgstr ""
+
+#: includes/business-hours/templates/business-hour-fields.php:35
+msgid "Thursday"
+msgstr ""
+
+#: includes/business-hours/templates/business-hour-fields.php:37
+msgid "Friday"
+msgstr ""
+
+#: includes/business-hours/templates/business-hour-fields.php:39
+msgid "Saturday"
+msgstr ""
+
+#: includes/business-hours/templates/business-hour-fields.php:41
+msgid "Sunday"
+msgstr ""
+
+#: includes/business-hours/templates/business-hour-fields.php:50
+#: includes/business-hours/templates/business-hour-fields.php:105
+#: includes/business-hours/templates/business-hour-fields.php:160
+#: includes/business-hours/templates/business-hour-fields.php:215
+#: includes/business-hours/templates/business-hour-fields.php:270
+#: includes/business-hours/templates/business-hour-fields.php:325
+#: includes/business-hours/templates/business-hour-fields.php:380
+msgid "Enter Times"
+msgstr ""
+
+#: includes/business-hours/templates/business-hour-fields.php:56
+#: includes/business-hours/templates/business-hour-fields.php:111
+#: includes/business-hours/templates/business-hour-fields.php:166
+#: includes/business-hours/templates/business-hour-fields.php:221
+#: includes/business-hours/templates/business-hour-fields.php:276
+#: includes/business-hours/templates/business-hour-fields.php:331
+#: includes/business-hours/templates/business-hour-fields.php:386
+msgid "Open All Day"
+msgstr ""
+
+#: includes/business-hours/templates/business-hour-fields.php:62
+#: includes/business-hours/templates/business-hour-fields.php:117
+#: includes/business-hours/templates/business-hour-fields.php:172
+#: includes/business-hours/templates/business-hour-fields.php:227
+#: includes/business-hours/templates/business-hour-fields.php:282
+#: includes/business-hours/templates/business-hour-fields.php:337
+#: includes/business-hours/templates/business-hour-fields.php:392
+msgid "Closed All Day"
+msgstr ""
+
+#: includes/business-hours/widgets/class-widget.php:13
+msgid ""
+"You can show business hour on the sidebar of every single listing ( listing "
+"details page ) by this widget "
+msgstr ""
+
+#: includes/business-hours/widgets/class-widget.php:17
+msgid "Directorist - Business Hour"
+msgstr ""
+
+#: includes/business-hours/widgets/class-widget.php:92
+#: includes/claim-listing/inc/class-claim-now.php:251
+#: includes/faqs/widgets/class-widget.php:80
+msgid "Title:"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:132
+#: includes/claim-listing/directorist-claim-listing.php:461
+#: includes/claim-listing/inc/class-claim-now.php:35
+msgid "Is this your business?"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:133
+#: includes/claim-listing/directorist-claim-listing.php:467
+#: includes/claim-listing/inc/class-claim-now.php:36
+msgid "Claim listing is the best way to manage and protect your business."
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:134
+#: includes/claim-listing/directorist-claim-listing.php:502
+#: includes/claim-listing/inc/class-claim-now.php:37
+msgid "Claim Now!"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:145
+msgid " Claim"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:178
+#: includes/claim-listing/inc/class-claim-now.php:71
+msgid "Login"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:179
+#: includes/claim-listing/inc/class-claim-now.php:72
+msgid "Register"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:181
+#: includes/claim-listing/inc/class-claim-now.php:74
+#, php-format
+msgid "You need to %s or %s to claim this listing"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:199
+#: includes/claim-listing/inc/class-claim-now.php:94
+msgid "Claim This Listing"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:204
+#: includes/claim-listing/directorist-claim-listing.php:207
+#: includes/claim-listing/inc/class-claim-now.php:99
+#: includes/claim-listing/inc/class-claim-now.php:101
+msgid "Full Name"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:211
+#: includes/claim-listing/inc/class-claim-now.php:104
+#: includes/directorist-listings-map/inc/settings.php:104
+#: includes/directorist-listings-map/inc/settings.php:180
+#: includes/woo-plans/templates/woo-custom-fields.php:399
+msgid "Phone"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:214
+#: includes/claim-listing/inc/class-claim-now.php:106
+msgid "111-111-235"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:218
+#: includes/claim-listing/inc/class-claim-now.php:109
+msgid "Verification Details"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:222
+#: includes/claim-listing/inc/class-claim-now.php:113
+msgid "Details description about your business"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:257
+#: includes/claim-listing/directorist-claim-listing.php:307
+#: includes/claim-listing/inc/class-claim-now.php:148
+#: includes/claim-listing/inc/class-claim-now.php:197
+#: includes/plans/directorist-pricing-plans.php:328
+#: includes/plans/directorist-pricing-plans.php:462
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:352
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:487
+msgid "Select Plan"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:259
+#: includes/claim-listing/directorist-claim-listing.php:309
+#: includes/claim-listing/inc/class-claim-now.php:150
+#: includes/claim-listing/inc/class-claim-now.php:199
+msgid "- Select Plan -"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:263
+#: includes/claim-listing/directorist-claim-listing.php:313
+#: includes/claim-listing/inc/class-claim-now.php:154
+#: includes/claim-listing/inc/class-claim-now.php:203
+msgid "- Active"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:275
+#: includes/claim-listing/inc/class-claim-now.php:165
+msgid "Show plan details"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:323
+#: includes/claim-listing/inc/class-claim-now.php:212
+msgid " Show plan details"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:336
+#: includes/claim-listing/inc/class-claim-now.php:225
+msgid "Submit"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:337
+#: includes/claim-listing/inc/class-claim-now.php:227
+msgid "Secure Claim Process"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:389
+msgid "Choose listing type"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:399
+#: includes/claim-listing/directorist-claim-listing.php:406
+#: includes/plans/directorist-pricing-plans.php:644
+#: includes/plans/directorist-pricing-plans.php:651
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:898
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:905
+msgid " Regular listing"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:400
+#: includes/claim-listing/directorist-claim-listing.php:418
+#: includes/plans/directorist-pricing-plans.php:645
+#: includes/plans/directorist-pricing-plans.php:662
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:899
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:916
+msgid " (Unlimited)"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:417
+#: includes/claim-listing/directorist-claim-listing.php:425
+#: includes/plans/directorist-pricing-plans.php:661
+#: includes/plans/directorist-pricing-plans.php:668
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:915
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:922
+msgid " Featured listing"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:448
+#: includes/claim-listing/directorist-claim-listing.php:1058
+#: includes/claim-listing/directorist-claim-listing.php:1060
+#: includes/claim-listing/directorist-claim-listing.php:1193
+msgid "Claim Listing"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:454
+msgid "Claim Settings"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:455
+msgid "You can Customize all the settings of Claim Listing Extension here"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:460
+msgid "Claim Widget Title"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:466
+msgid "Description"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:472
+msgid "Method of Charging"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:480
+#: includes/claim-listing/directorist-claim-listing.php:489
+#: includes/claim-listing/directorist-claim-listing.php:695
+msgid "Claim for Free"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:484
+msgid "Set a Claim Fee"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:495
+msgid "Claim Fee in "
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:501
+msgid "Claim Now Button"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:507
+msgid "Display Claim Now Button on Listing Details"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:513
+msgid "Display Claimed Badge"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:519
+msgid "Verified Text"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:520
+#: includes/claim-listing/directorist-claim-listing.php:608
+msgid "Claimed"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:543
+#: includes/claim-listing/directorist-claim-listing.php:560
+msgid "Sorry! You have already requested for claim."
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:551
+msgid "Your claim submitted successfully."
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:553
+msgid "Sorry! Something wrong with your submission."
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:611
+msgid "Verified by it's Owner"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:660
+#: includes/claim-listing/directorist-claim-listing.php:997
+msgid "Claim Details"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:684
+msgid "Mark as Claimed"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:690
+msgid "Charge claimer with <a href=\""
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:700
+msgid "Set a claim fee"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:743
+#: includes/claim-listing/directorist-claim-listing.php:774
+#: includes/plans/directorist-pricing-plans.php:837
+#: includes/plans/directorist-pricing-plans.php:884
+msgid "Claiming charge for this listing"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:859
+#: includes/claim-listing/directorist-claim-listing.php:867
+#: includes/plans/directorist-pricing-plans.php:764
+#: includes/plans/directorist-pricing-plans.php:772
+#: includes/plans/directorist-pricing-plans.php:952
+msgid "Claim for "
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:868
+#: includes/plans/directorist-pricing-plans.php:773
+msgid "Claiming charge for this listing "
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:927
+msgid "Claimed for "
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:970
+#: includes/claim-listing/inc/class-claim-now.php:42
+#: includes/plans/directorist-pricing-plans.php:1280
+msgid "Title"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:971
+#: includes/claim-listing/inc/helper-functions.php:24
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:402
+#: includes/plans/inc/helper-functions.php:24
+#: includes/woo-plans/inc/helper-functions.php:24
+msgid "Author"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:972
+#: includes/claim-listing/templates/admin-meta-fields.php:57
+msgid "Status"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:973
+#: includes/claim-listing/templates/admin-meta-fields.php:73
+msgid "Claimer Details"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:974
+#: includes/claim-listing/templates/admin-meta-fields.php:83
+msgid "Claimer Phone"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:975
+#: includes/plans/directorist-pricing-plans.php:1290
+msgid "Date"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1056
+msgctxt "Post Type General Name"
+msgid "Claim Listing"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1057
+msgctxt "Post Type Singular Name"
+msgid "Claim Listing"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1059
+msgid "Claim"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1061
+#: includes/claim-listing/directorist-claim-listing.php:1062
+msgid "Add New Claim"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1063
+msgid "New Claim"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1064
+msgid "Edit Claim"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1065
+msgid "Update Claim"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1066
+msgid "View Claim"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1067
+msgid "Search Claim"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1068
+msgid "No Claim found"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1069
+msgid "No Claim found in Trash"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1074
+#: includes/plans/directorist-pricing-plans.php:1371
+msgid "This order post type will keep track of admin fee plans"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1102
+msgid "For New Claim"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1103
+#: includes/claim-listing/directorist-claim-listing.php:1109
+#: includes/claim-listing/directorist-claim-listing.php:1115
+msgid ""
+"You can Customize Email and Notification Templates related settings here. Do "
+"not forget to save the changes."
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1108
+msgid "Approved Claim Confirmation"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1114
+msgid "Declined Claim Confirmation"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1132
+msgid "Claim Confirmation"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1171
+msgid "New Claim Submitted"
+msgstr ""
+
+#: includes/claim-listing/directorist-claim-listing.php:1194
+#: includes/plans/directorist-pricing-plans.php:1405
+msgid "You can disable it for users."
+msgstr ""
+
+#: includes/claim-listing/inc/class-claim-now.php:13
+msgid ""
+"You can show Claim Now button on the sidebar of every single listing "
+"( listing details page ) by this widget "
+msgstr ""
+
+#: includes/claim-listing/inc/class-claim-now.php:17
+msgid "Directorist - Claim Listing"
+msgstr ""
+
+#: includes/claim-listing/inc/class-claim-now.php:248
+msgid "Claim Now"
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:16
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:394
+#: includes/plans/inc/helper-functions.php:16
+#: includes/woo-plans/inc/helper-functions.php:16
+msgid "Administrator"
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:20
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:398
+#: includes/plans/inc/helper-functions.php:20
+#: includes/woo-plans/inc/helper-functions.php:20
+msgid "Editor"
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:28
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:406
+#: includes/plans/inc/helper-functions.php:28
+#: includes/woo-plans/inc/helper-functions.php:28
+msgid "Contributor"
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:32
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:410
+#: includes/plans/inc/helper-functions.php:32
+#: includes/woo-plans/inc/helper-functions.php:32
+msgid "Subscriber"
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:112
+msgid "Pending"
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:113
+msgid "Approved"
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:114
+msgid "Decline"
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:287
+msgid "[{site_name}] Contact via \"{listing_title}\""
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:290
+msgid ""
+"Dear Administrator,<br /><br />An user on your website {site_name} submit a "
+"claim for this listing .<br /><br />Listing URL: {listing_url}<br /><br /"
+">Name: {sender_name}<br />Email: {sender_email}<br />Claim Details: {message}"
+"<br />Time: {now}"
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:581
+msgid "[==SITE_NAME==] : Your Claim for (#==LISTING_TITLE==) Received."
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:582
+#, php-format
+msgid ""
+"\n"
+"Dear ==NAME==,\n"
+"\n"
+"Thank you very much for your claim.\n"
+"This email is to notify you that your claim for (#==LISTING_TITLE==) has "
+"been received.\n"
+"\n"
+"%s\n"
+"\n"
+"Please wait for the confirmation by administrator.\n"
+"Listing Details Page: ==LISTING_URL==\n"
+"\n"
+"\n"
+"Thanks,\n"
+"The Administrator of ==SITE_NAME==\n"
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:602
+#: includes/claim-listing/inc/helper-functions.php:639
+#: includes/claim-listing/inc/helper-functions.php:673
+msgid "Email Subject"
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:603
+msgid "Edit the subject for sending to the user when a claim is submitted."
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:609
+#: includes/claim-listing/inc/helper-functions.php:646
+#: includes/claim-listing/inc/helper-functions.php:680
+msgid "Email Body"
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:610
+msgid ""
+"Edit the email template for sending to the user when a claim is submitted."
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:626
+#: includes/claim-listing/inc/helper-functions.php:660
+msgid "[==SITE_NAME==] : Claim Confirmation for Claim for (#==LISTING_TITLE==)"
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:627
+msgid ""
+"\n"
+"Dear ==NAME==,\n"
+"Congratulations! Your Claim for '==LISTING_TITLE==' has been confirmed. You "
+"can now edit it from your Dashboard ==LISTING_URL==\n"
+"\n"
+"Thanks,\n"
+"The Administrator of ==SITE_NAME==\n"
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:640
+msgid "Edit the subject of approved claim notification for user."
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:647
+msgid ""
+"Edit the email template of approved claim notification for user. HTML "
+"content is allowed too."
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:661
+msgid ""
+"\n"
+"Dear ==NAME==,\n"
+"Your Claim for '==LISTING_TITLE==' has been declined. Please contact with "
+"administrator.\n"
+"\n"
+"Thanks,\n"
+"The Administrator of ==SITE_NAME==\n"
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:674
+msgid "Edit the subject of declined claim notification for user."
+msgstr ""
+
+#: includes/claim-listing/inc/helper-functions.php:681
+msgid ""
+"Edit the email template of declined claim notification for user. HTML "
+"content is allowed too."
+msgstr ""
+
+#: includes/claim-listing/templates/admin-meta-fields.php:12
+msgid "Select Listing for Claim"
+msgstr ""
+
+#: includes/claim-listing/templates/admin-meta-fields.php:19
+msgid "-Select a Listing-"
+msgstr ""
+
+#: includes/claim-listing/templates/admin-meta-fields.php:40
+msgid "Claimed by"
+msgstr ""
+
+#: includes/claim-listing/templates/admin-meta-fields.php:47
+msgid "-Select user-"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:96
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:150
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:190
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:244
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:104
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:198
+msgid "Response not found!"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:113
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:207
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:121
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:215
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:126
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:220
+msgid "Invalid license."
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:133
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:227
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:139
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:233
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:145
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:239
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:157
+msgid "License deactivated successfully!"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:163
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:257
+msgid "License not found!"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:251
+msgid "License activated successfully!"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:274
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:295
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:750
+msgid "Google reCAPTCHA"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:275
+msgid "On refers to google reCAPTCHA is enable for frontend listing submission"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:301
+msgid "Google reCAPTCHA Settings"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:302
+msgid "You can block boot or spamming"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:307
+msgid "reCAPTCHA in Listing Form"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:315
+msgid "reCAPTCHA in Registration Form"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:330
+msgid "Google reCAPTCHA Site Key"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:331
+#, php-format
+msgid ""
+"You need to enter your google reCAPTCHA Site api key in order to display "
+"google reCAPTCHA. You can find your google reCAPTCHA Site api key and "
+"detailed information %s. or you can search in google"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:337
+msgid "Google reCAPTCHA Secret Key"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:338
+msgid ""
+"You need to enter your google reCAPTCHA Secret key in order to display "
+"google reCAPTCHA."
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:344
+msgid "Disable reCAPTCHA for"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:345
+msgid "Select the user not to show the Google reCAPTCHA verification"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:352
+msgid "Google reCAPTCHA Level text"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:353
+msgid ""
+"You need to enter level text to display before google reCAPTCHA.Leave blank "
+"to hide"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:359
+msgid "Google reCAPTCHA Theme"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:363
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:374
+msgid "Light"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:367
+msgid "Dark"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:370
+msgid "Select the theme you need."
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:442
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:452
+msgid "Verification failed! Please try again"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:737
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:744
+msgid "Action"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:751
+msgid "You can active your Google reCAPTCHA extension here."
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:756
+msgid "License"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/directorist-google-recaptcha.php:757
+msgid "Enter your Google reCAPTCHA extension license"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/inc/EDD_SL_Plugin_Updater.php:228
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: includes/directorist-google-recaptcha/inc/EDD_SL_Plugin_Updater.php:236
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: includes/directorist-google-recaptcha/inc/EDD_SL_Plugin_Updater.php:474
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/inc/EDD_SL_Plugin_Updater.php:474
+msgid "Error"
+msgstr ""
+
+#: includes/directorist-google-recaptcha/recaptchalib.php:56
+#, php-format
+msgid "To use reCAPTCHA you must get an API key from %s"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/ajax.php:428
+#, php-format
+msgid "for %s"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/ajax.php:430
+#: includes/directorist-listings-map/inc/ajax.php:432
+#, php-format
+msgid "in %s"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/ajax.php:437
+#, php-format
+msgid "%d result%s %s %s"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/ajax.php:438
+#: includes/directorist-listings-map/templates/view/listings/header.php:11
+msgid "Sort By"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/ajax.php:439
+#: includes/directorist-listings-map/templates/view/listings/header.php:12
+msgid "View As"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:360
+#: includes/directorist-listings-map/templates/view/listings/grid.php:364
+#, php-format
+msgid "Posted %s ago"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:393
+#: includes/directorist-listings-map/templates/view/listings/grid.php:391
+msgid "Read More"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:402
+#: includes/directorist-listings-map/templates/view/listings/grid.php:400
+#, php-format
+msgid " %s"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:447
+#: includes/directorist-listings-map/templates/view/listings/grid.php:441
+msgid "Uncategorized"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:550
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:29
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:29
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:260
+msgid "What are you looking for?"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:566
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:67
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:67
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:295
+msgid "Select a category"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:585
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:37
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:37
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:268
+msgid "Select a location"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:604
+msgid "location"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:630
+#: includes/directorist-listings-map/inc/settings.php:77
+#: includes/directorist-listings-map/inc/settings.php:153
+#: includes/plans/directorist-pricing-plans.php:1284
+#: includes/plans/templates/admin-meta-fields.php:247
+#: includes/woo-plans/templates/woo-custom-fields.php:264
+msgid "Price Range"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:638
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:83
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:78
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:306
+msgid "Min Price"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:643
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:86
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:81
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:309
+msgid "Max Price"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:673
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:176
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:176
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:412
+msgid "Filter by Ratings"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:675
+msgid "Select Ratings"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:678
+msgid "5 Star"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:681
+msgid "4 Star & Up"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:684
+msgid "3 Star & Up"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:687
+msgid "2 Star & Up"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:690
+msgid "1 Star & Up"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:700
+#: includes/directorist-listings-map/inc/settings.php:116
+#: includes/directorist-listings-map/inc/settings.php:192
+msgid "Radius Search"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:734
+msgid "Tags"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:753
+msgid "Show More"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:773
+#: includes/directorist-listings-map/inc/settings.php:96
+#: includes/directorist-listings-map/inc/settings.php:172
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:6
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:133
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:6
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:133
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:369
+#: includes/directorist-listings-map/templates/view/listings/header.php:5
+msgid "Website"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:783
+#: includes/directorist-listings-map/inc/settings.php:100
+#: includes/directorist-listings-map/inc/settings.php:176
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:5
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:138
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:5
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:138
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:374
+#: includes/directorist-listings-map/templates/view/listings/header.php:4
+#: includes/gateways/stripe/directorist-stripe.php:198
+#: includes/woo-plans/templates/woo-custom-fields.php:381
+msgid "Email"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:793
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:143
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:143
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:379
+#: includes/plans/templates/admin-meta-fields.php:340
+msgid "Phone Number"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:803
+#: includes/directorist-listings-map/inc/settings.php:108
+#: includes/directorist-listings-map/inc/settings.php:184
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:4
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:4
+#: includes/directorist-listings-map/templates/view/listings/header.php:3
+msgid "Fax"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:813
+#: includes/directorist-listings-map/inc/settings.php:112
+#: includes/directorist-listings-map/inc/settings.php:188
+msgid "Zip/Post Code"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:826
+#: includes/directorist-listings-map/inc/settings.php:209
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:249
+msgid "Reset Filters"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/helper.php:831
+#: includes/directorist-listings-map/inc/settings.php:213
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:252
+msgid "Apply Filters"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:18
+msgid "Listings with Map"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:28
+msgid "Columns"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:32
+msgid "2"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:36
+#: includes/directorist-listings-map/inc/settings.php:41
+msgid "3"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:49
+msgid "Filter Settings"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:50
+msgid "You can Customize Filters Settings here"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:56
+msgid "Filter Fields"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:61
+#: includes/directorist-listings-map/inc/settings.php:137
+msgid "Text"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:65
+#: includes/directorist-listings-map/inc/settings.php:141
+msgid "Category"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:69
+#: includes/directorist-listings-map/inc/settings.php:145
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:51
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:51
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:279
+msgid "Location"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:73
+#: includes/directorist-listings-map/inc/settings.php:149
+msgid "Price (Min - Max)"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:81
+#: includes/directorist-listings-map/inc/settings.php:157
+msgid "Rating"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:85
+#: includes/directorist-listings-map/inc/settings.php:161
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:2
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:2
+#: includes/directorist-listings-map/templates/view/listings/header.php:6
+msgid "Tag"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:89
+#: includes/directorist-listings-map/inc/settings.php:165
+#, php-format
+msgid "Open Now %s"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:92
+#: includes/directorist-listings-map/inc/settings.php:168
+#: includes/plans/templates/admin-meta-fields.php:405
+#: includes/plans/templates/fee-plans.php:260
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:696
+#: includes/woo-plans/templates/fee-plans.php:282
+#: includes/woo-plans/templates/woo-custom-fields.php:490
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:132
+msgid "Visible Fields"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:204
+msgid "Filters Button"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:223
+msgid "Location Source for Search"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:227
+msgid "Display from Listing Location"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:231
+#: includes/directorist-listings-map/inc/settings.php:236
+msgid "Display From Map API"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:243
+#: includes/directorist-listings-map/inc/settings.php:282
+msgid "Listings Settings"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:244
+msgid "You can Customize Listings Settings here"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:249
+msgid "Default View"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:253
+#: includes/directorist-listings-map/inc/settings.php:262
+#: includes/directorist-listings-map/templates/view/listings/header.php:118
+msgid "Grid"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:257
+msgid "List"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:268
+msgid "Display \"View As\" Dropdown"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:274
+msgid "Display \"Sort By\" Dropdown"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:283
+msgid "You can Customize Map Settings here"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:288
+msgid "Zoom Level for Map View"
+msgstr ""
+
+#: includes/directorist-listings-map/inc/settings.php:289
+msgid ""
+"Here 0 means 100% zoom-out. 18 means 100% zoom-in. Minimum Zoom Allowed = 1. "
+"Max Zoom Allowed = 22."
+msgstr ""
+
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:3
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:3
+#: includes/directorist-listings-map/templates/view/listings/header.php:2
+msgid "Address"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:7
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:7
+#: includes/directorist-listings-map/templates/view/listings/header.php:7
+msgid "Zip"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:111
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:93
+msgid "Distance:"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:149
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:149
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:385
+msgid "zip"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/all-listings/columns-three/search.php:159
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:159
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:395
+msgid "Filter by Tags"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:250
+msgid "Search"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:252
+msgid "More Filters"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:321
+msgid "Distance"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:486
+msgid "Reset"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/all-listings/columns-two/search.php:489
+msgid "Search Filters"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/view/listings/grid.php:479
+#: includes/directorist-listings-map/templates/view/listings/list.php:31
+msgid "No listing found."
+msgstr ""
+
+#: includes/directorist-listings-map/templates/view/listings/header.php:89
+msgid "All Filters"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/view/listings/header.php:119
+msgid "list"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/view/listings/header.php:145
+msgid "A to Z ( title )"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/view/listings/header.php:146
+msgid "Z to A ( title )"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/view/listings/header.php:147
+msgid "Latest listings"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/view/listings/header.php:148
+msgid "Oldest listings"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/view/listings/header.php:149
+msgid "Price ( low to high )"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/view/listings/header.php:150
+msgid "Price ( high to low )"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/view/listings/header.php:151
+msgid "Random listings"
+msgstr ""
+
+#: includes/directorist-listings-map/templates/view/maps/google/google-map.php:92
+#: includes/directorist-listings-map/templates/view/maps/openstreet/openstreet-map.php:75
+msgid "Get Direction"
+msgstr ""
+
+#: includes/faqs/directorist-faqs.php:111
+msgid "FAQs"
+msgstr ""
+
+#: includes/faqs/directorist-faqs.php:117
+msgid "FAQs Settings"
+msgstr ""
+
+#: includes/faqs/directorist-faqs.php:122
+msgid "Answer Field Type"
+msgstr ""
+
+#: includes/faqs/directorist-faqs.php:126
+msgid "WP Editor"
+msgstr ""
+
+#: includes/faqs/directorist-faqs.php:130
+#: includes/faqs/directorist-faqs.php:135
+msgid "Textarea"
+msgstr ""
+
+#: includes/faqs/directorist-faqs.php:183
+msgid "Add FAQs for the Listing"
+msgstr ""
+
+#: includes/faqs/directorist-faqs.php:248
+msgid "Enable FAQs"
+msgstr ""
+
+#: includes/faqs/directorist-faqs.php:249
+msgid "Allow users add FAQs for a listing."
+msgstr ""
+
+#: includes/faqs/directorist-faqs.php:287
+msgid "Listings FAQs"
+msgstr ""
+
+#: includes/faqs/templates/add-faq.php:18
+#: includes/faqs/templates/ajax/faqs-ajax.php:12
+msgid "Question"
+msgstr ""
+
+#: includes/faqs/templates/add-faq.php:33
+#: includes/faqs/templates/ajax/faqs-ajax.php:20
+#: includes/faqs/templates/ajax/faqs-ajax.php:23
+msgid "Answer.."
+msgstr ""
+
+#: includes/faqs/templates/add-faq.php:53
+#: includes/faqs/templates/ajax/faqs-ajax.php:41
+msgid "Remove this item"
+msgstr ""
+
+#: includes/faqs/templates/add-faq.php:65
+msgid "Add New"
+msgstr ""
+
+#: includes/faqs/templates/view-faqs.php:12
+#: includes/faqs/widgets/class-widget.php:41
+#: includes/faqs/widgets/class-widget.php:77
+#: includes/plans/templates/fee-plans.php:245
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:681
+#: includes/woo-plans/templates/fee-plans.php:266
+msgid "Listing FAQs"
+msgstr ""
+
+#: includes/faqs/widgets/class-widget.php:12
+msgid ""
+"Let user to shoe FAQs on the sidebar of every single listing ( listing "
+"details page ) by this widget "
+msgstr ""
+
+#: includes/faqs/widgets/class-widget.php:16
+msgid "Directorist - FAQs"
+msgstr ""
+
+#: includes/gateways/paypal/directorist-paypal.php:119
+msgid "Paypal"
+msgstr ""
+
+#: includes/gateways/paypal/directorist-paypal.php:134
+msgid "Paypal Gateway"
+msgstr ""
+
+#: includes/gateways/paypal/directorist-paypal.php:140
+msgid "Paypal Gateway Settings"
+msgstr ""
+
+#: includes/gateways/paypal/directorist-paypal.php:141
+msgid ""
+"You can customize all the settings related to your paypal gateway. After "
+"switching any option, Do not forget to save the changes."
+msgstr ""
+
+#: includes/gateways/paypal/directorist-paypal.php:157
+#: includes/gateways/stripe/directorist-stripe.php:306
+msgid "Gateway Settings Page"
+msgstr ""
+
+#: includes/gateways/paypal/directorist-paypal.php:163
+msgid "Note About Paypal Gateway:"
+msgstr ""
+
+#: includes/gateways/paypal/directorist-paypal.php:164
+#, php-format
+msgid ""
+"If you want to use PayPal for a testing purpose, you should set Test MODE to "
+"Yes on The %s."
+msgstr ""
+
+#: includes/gateways/paypal/directorist-paypal.php:170
+msgid "Your Business Email"
+msgstr ""
+
+#: includes/gateways/paypal/directorist-paypal.php:171
+msgid "Enter your PayPal business email"
+msgstr ""
+
+#: includes/gateways/paypal/directorist-paypal.php:178
+#: includes/gateways/stripe/directorist-stripe.php:320
+msgid "Gateway Title"
+msgstr ""
+
+#: includes/gateways/paypal/directorist-paypal.php:179
+#: includes/gateways/stripe/directorist-stripe.php:321
+msgid ""
+"Enter the title of this gateway that should be displayed to the user on the "
+"front end."
+msgstr ""
+
+#: includes/gateways/paypal/directorist-paypal.php:180
+#: includes/plans/templates/user-dashboard-data.php:118
+msgid "PayPal"
+msgstr ""
+
+#: includes/gateways/paypal/directorist-paypal.php:186
+#: includes/gateways/stripe/directorist-stripe.php:327
+msgid "Gateway Description"
+msgstr ""
+
+#: includes/gateways/paypal/directorist-paypal.php:187
+msgid "Enter some description for your user to make payment using paypal."
+msgstr ""
+
+#: includes/gateways/paypal/directorist-paypal.php:188
+msgid "You can make payment using paypal if you choose this payment gateway."
+msgstr ""
+
+#: includes/gateways/paypal/directorist-paypal.php:220
+msgid ""
+"Please DO NOT close this window. Now you will be redirected to paypal.com "
+"for completing your purchase."
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:205
+msgid "Pay Now"
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:268
+#: includes/gateways/stripe/directorist-stripe.php:322
+#: includes/plans/templates/user-dashboard-data.php:118
+msgid "Stripe"
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:283
+msgid "Stripe Gateway"
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:289
+msgid "Stripe Gateway Settings"
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:290
+msgid ""
+"You can customize all the settings related to your stripe gateway. After "
+"switching any option, Do not forget to save the changes."
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:307
+msgid "Get your Stripe API keys"
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:313
+msgid "Note About Stripe Gateway:"
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:314
+#, php-format
+msgid ""
+"If you want to use Stripe for a testing purpose, you should set Test MODE to "
+"Yes on The %s."
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:328
+msgid "Enter some description for your user to make payment using stripe."
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:329
+msgid ""
+"You can make payment using your credit card using stripe if you choose this "
+"payment gateway."
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:334
+msgid "Live Publishable Key"
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:335
+#, php-format
+msgid ""
+"Enter your Stripe Live Publishable Key Here. You can find your API key on "
+"your Stripe Dashboard Under Developers > API section. %s"
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:341
+msgid "Live Secret Key"
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:342
+#, php-format
+msgid ""
+"Enter your Stripe Live Secret Key Here. You can find your API key on your "
+"Stripe Dashboard Under Developers > API section. %s"
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:348
+msgid "Test Publishable Key"
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:349
+#, php-format
+msgid ""
+"Enter your Stripe Test Publishable Key Here. You can find your API key on "
+"your Stripe Dashboard Under Developers > API section. %s"
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:355
+msgid "Test Secret Key"
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:356
+#, php-format
+msgid ""
+"Enter your Stripe Test Secret Key Here. You can find your API key on your "
+"Stripe Dashboard Under Developers > API section. %s"
+msgstr ""
+
+#: includes/gateways/stripe/directorist-stripe.php:362
+msgid "Default Vat Rate"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:205
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:211
+msgid "Display Packages Tab"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:211
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:217
+msgid "Display Order History Tab"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:223
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:223
+msgid "Display Plan Change Link"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:242
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:260
+msgid "Plan changed successfully!"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:243
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:261
+msgid "Listing renewed successfully!"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:264
+#: includes/plans/directorist-pricing-plans.php:363
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:284
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:384
+msgid "Change"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:266
+#: includes/plans/directorist-pricing-plans.php:574
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:286
+msgid "No Plan!"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:267
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:287
+#, php-format
+msgid "<p><span>Plan Name:</span> %s %s</p>"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:290
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:308
+msgid "Change Pricing Plan"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:292
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:310
+msgid "Click Here"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:293
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:311
+msgid "We recommend you check the details of Pricing Plans before changing."
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:332
+#: includes/plans/templates/fee-plans.php:57
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:356
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:533
+#: includes/woo-plans/templates/fee-plans.php:67
+msgid "Unlimited"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:341
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:365
+msgid " regular"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:342
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:366
+msgid " featured listings"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:345
+#: includes/plans/templates/fee-plans.php:117
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:367
+#: includes/woo-plans/templates/fee-plans.php:138
+msgid " days"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:345
+#: includes/plans/directorist-pricing-plans.php:580
+#: includes/plans/directorist-pricing-plans.php:1243
+#: includes/plans/templates/admin-meta-fields.php:23
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:367
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:969
+#: includes/woo-plans/templates/woo-custom-fields.php:23
+msgid "Package"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:345
+#: includes/plans/directorist-pricing-plans.php:585
+#: includes/plans/directorist-pricing-plans.php:1243
+#: includes/plans/templates/admin-meta-fields.php:18
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:367
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:975
+#: includes/woo-plans/templates/woo-custom-fields.php:24
+msgid "Pay Per Listing"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:348
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:370
+msgid "Active"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:364
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:385
+msgid "Secure Payment Process"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:439
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:458
+msgid "Belongs to Plan"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:464
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:489
+msgid "- Select -"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:470
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:495
+msgid "Details"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:521
+msgid "You have crossed the limit!"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:542
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:943
+msgid "Packages"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:546
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:952
+msgid "Order History"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:552
+msgid "Subscription"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:602
+msgid "Payment Status"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:635
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:890
+msgid "Choose Listing Type"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:992
+#: includes/plans/directorist-pricing-plans.php:1042
+#: includes/plans/directorist-pricing-plans.php:1045
+msgid "Activated"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1047
+msgid "Not Activated"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1056
+msgid "Plan"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1281
+#: includes/plans/templates/admin-meta-fields.php:33
+msgid "Price"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1282
+msgid "Length"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1283
+msgid "Listing"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1285
+#: includes/woo-plans/templates/woo-custom-fields.php:21
+msgid "Plan Type"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1286
+msgid "Business Time"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1287
+msgid "Image"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1288
+msgid "Web-link"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1312
+msgid "Plan Details"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1353
+msgctxt "Post Type General Name"
+msgid "Pricing Plans"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1354
+msgctxt "Post Type Singular Name"
+msgid "Pricing Plans"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1356
+msgid "Pricing Plan"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1358
+#: includes/plans/directorist-pricing-plans.php:1359
+msgid "Add New Plan"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1360
+msgid "New Plan"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1361
+msgid "Edit Plan"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1362
+msgid "Update Plan"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1363
+msgid "View Plan"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1364
+msgid "Search Plan"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1365
+msgid "No Plan found"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1366
+msgid "No Plan found in Trash"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1428
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:791
+msgid "Pricing Plans Settings"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1429
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:792
+msgid "You can Customize all the settings of Pricing Plans Extension here"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1434
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:797
+msgid "Skip Plan Page for Paid Users"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1450
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:814
+msgid "Pricing Plans Page"
+msgstr ""
+
+#: includes/plans/directorist-pricing-plans.php:1452
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:816
+#, php-format
+msgid "Following shortcode must be in the selected page %s"
+msgstr ""
+
+#: includes/plans/inc/validator.php:33 includes/woo-plans/inc/validator.php:33
+msgid "Unlimited price with this plan!"
+msgstr ""
+
+#: includes/plans/inc/validator.php:36 includes/woo-plans/inc/validator.php:36
+msgid "You can set maximum"
+msgstr ""
+
+#: includes/plans/inc/validator.php:37 includes/woo-plans/inc/validator.php:37
+msgid "price with this plan!"
+msgstr ""
+
+#: includes/plans/inc/validator.php:38 includes/woo-plans/inc/validator.php:38
+#, php-format
+msgid "%s %s%s %s"
+msgstr ""
+
+#: includes/plans/inc/validator.php:55 includes/woo-plans/inc/validator.php:55
+msgid "tags"
+msgstr ""
+
+#: includes/plans/inc/validator.php:55 includes/woo-plans/inc/validator.php:55
+msgid "tag"
+msgstr ""
+
+#: includes/plans/inc/validator.php:62 includes/woo-plans/inc/validator.php:62
+msgid "Unlimited tags with this plan!"
+msgstr ""
+
+#: includes/plans/inc/validator.php:65 includes/woo-plans/inc/validator.php:65
+msgid "You can use"
+msgstr ""
+
+#: includes/plans/inc/validator.php:66 includes/woo-plans/inc/validator.php:66
+msgid "with this plan!"
+msgstr ""
+
+#: includes/plans/inc/validator.php:67 includes/woo-plans/inc/validator.php:67
+#, php-format
+msgid "%s %s %s %s"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:11
+msgid "Select Plan Type"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:38
+msgid "Plan price"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:44
+msgid "Plan Short Description"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:49
+#: includes/plans/templates/admin-meta-fields.php:118
+#: includes/plans/templates/admin-meta-fields.php:132
+#: includes/plans/templates/admin-meta-fields.php:154
+#: includes/plans/templates/admin-meta-fields.php:179
+#: includes/plans/templates/admin-meta-fields.php:203
+#: includes/plans/templates/admin-meta-fields.php:227
+#: includes/plans/templates/admin-meta-fields.php:251
+#: includes/plans/templates/admin-meta-fields.php:266
+#: includes/plans/templates/admin-meta-fields.php:281
+#: includes/plans/templates/admin-meta-fields.php:305
+#: includes/plans/templates/admin-meta-fields.php:318
+#: includes/plans/templates/admin-meta-fields.php:331
+#: includes/plans/templates/admin-meta-fields.php:344
+#: includes/plans/templates/admin-meta-fields.php:357
+#: includes/plans/templates/admin-meta-fields.php:370
+#: includes/plans/templates/admin-meta-fields.php:383
+#: includes/plans/templates/admin-meta-fields.php:396
+#: includes/plans/templates/admin-meta-fields.php:409
+#: includes/plans/templates/admin-meta-fields.php:422
+#: includes/plans/templates/admin-meta-fields.php:434
+msgid "Hide this from pricing plan page "
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:66
+msgid "Duration (in days)"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:71
+msgid "Example 360"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:77
+#: includes/plans/templates/admin-meta-fields.php:143
+#: includes/plans/templates/admin-meta-fields.php:165
+#: includes/plans/templates/admin-meta-fields.php:190
+#: includes/plans/templates/admin-meta-fields.php:214
+#: includes/plans/templates/admin-meta-fields.php:238
+#: includes/plans/templates/admin-meta-fields.php:293
+msgid "Or mark as unlimited "
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:84
+msgid "Recurring Payment"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:90
+msgid "Should the plan auto-renew at the end of the term?"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:93
+msgid "After Every"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:100
+msgid "Day(s)"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:101
+msgid "Week(s)"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:102
+msgid "Month(s)"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:103
+msgid "Year(s)"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:105
+msgid ""
+"<p>(PayPal Allowed Range: Days 1-90, Weeks 1-52, Months 1-24, Years "
+"1-5)<br>(Stripe Allowed Range: Days 1-365, Weeks 1-52, Months 1-12, Year 1)</"
+"p>"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:114
+#: includes/woo-plans/templates/woo-custom-fields.php:124
+msgid "Featured the Listing"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:128
+#: includes/woo-plans/templates/woo-custom-fields.php:58
+msgid "Number of Listings"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:138
+msgid "Example 100"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:150
+#: includes/woo-plans/templates/woo-custom-fields.php:90
+msgid "Number of Featured Listings"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:160
+#: includes/plans/templates/admin-meta-fields.php:185
+#: includes/plans/templates/admin-meta-fields.php:288
+msgid "Example 5"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:175
+msgid "Listing Slider Image Limit"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:199
+msgid "Allow Tag and set Limit"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:209
+msgid "Example 140"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:223
+msgid "Allow Price and set Limit"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:233
+msgid "Example 500"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:260
+msgid ""
+"Business Hours (It requires <a style=\"text-decoration: underline\" href="
+"\"https://aazztech.com/product/directorist-business-hours/\" target=\"_blank"
+"\">Business Hours</a> extension)"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:276
+msgid ""
+"Image Gallery (It requires <a style=\"text-decoration: underline\" href="
+"\"https://aazztech.com/product/directorist-image-gallery\" target=\"_blank"
+"\">Image Gallery</a> extension)"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:285
+msgid "Gallery Image Limit "
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:301
+#: includes/plans/templates/fee-plans.php:203
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:646
+#: includes/woo-plans/templates/fee-plans.php:224
+#: includes/woo-plans/templates/woo-custom-fields.php:343
+msgid "Video"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:314
+#: includes/woo-plans/templates/woo-custom-fields.php:362
+msgid "Contact Listing Owner"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:327
+msgid "Email Address"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:353
+#: includes/woo-plans/templates/woo-custom-fields.php:417
+msgid "Website Link"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:366
+#: includes/woo-plans/templates/woo-custom-fields.php:436
+msgid "Social Media Links"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:379
+#: includes/woo-plans/templates/woo-custom-fields.php:454
+msgid "Customer Reviews"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:392
+msgid ""
+"FAQs (It requires <a style=\"text-decoration: underline\" href=\"https://"
+"aazztech.com/product/directorist-listing-faqs/\" target=\"_blank\">Listing's "
+"FAQs</a> extension)"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:418
+msgid ""
+"Claim Badge Included (It requires <a style=\"text-decoration: underline\" "
+"href=\"https://aazztech.com/product/directorist-claim-listing/\" target="
+"\"_blank\">Claim Listing</a> extension)"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:430
+#: includes/woo-plans/templates/woo-custom-fields.php:534
+msgid "Exclude Categories"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:453
+msgid "Recommend this Plan"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:461
+msgid "Hide form All Plans"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:470
+#: includes/woo-plans/templates/woo-custom-fields.php:567
+msgid "Shortcode"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:471
+#: includes/woo-plans/templates/woo-custom-fields.php:568
+msgid "Use following shortcode to display the Plan anywhere:"
+msgstr ""
+
+#: includes/plans/templates/admin-meta-fields.php:474
+#: includes/woo-plans/templates/woo-custom-fields.php:571
+msgid ""
+"If you need to put the shortcode inside php code/template file, use this:"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:106
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:563
+#: includes/woo-plans/templates/fee-plans.php:124
+msgid " <span class=\"atbd_popular_badge\">Recommended</span>"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:108
+#: includes/woo-plans/templates/fee-plans.php:126
+msgid " <span class=\"atbd_plan-active\">Active</span>"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:119
+#: includes/woo-plans/templates/fee-plans.php:140
+msgid "Per Listing"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:119
+#: includes/woo-plans/templates/fee-plans.php:140
+msgid "Per Package"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:130
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:575
+#: includes/woo-plans/templates/fee-plans.php:151
+msgid "Listing as featured"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:139
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:584
+#: includes/woo-plans/templates/fee-plans.php:160
+msgid " Regular Listings"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:147
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:592
+#: includes/woo-plans/templates/fee-plans.php:168
+msgid " Featured Listings"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:156
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:571
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:601
+#: includes/woo-plans/templates/fee-plans.php:177
+msgid "No"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:156
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:601
+#: includes/woo-plans/templates/fee-plans.php:177
+msgid " Price Limit"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:162
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:607
+#: includes/woo-plans/templates/fee-plans.php:183
+msgid "Average Price Range"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:170
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:615
+#: includes/woo-plans/templates/fee-plans.php:191
+msgid " Listing Image"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:170
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:615
+#: includes/woo-plans/templates/fee-plans.php:191
+msgid " Listing Image "
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:178
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:623
+#: includes/woo-plans/templates/fee-plans.php:199
+msgid "   Tags limit"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:185
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:631
+#: includes/woo-plans/templates/fee-plans.php:206
+msgid "Business Hours"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:196
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:640
+msgid " Gallery Image Limit"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:209
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:651
+#: includes/woo-plans/templates/fee-plans.php:230
+msgid "Contact Owner"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:215
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:656
+#: includes/woo-plans/templates/fee-plans.php:236
+msgid "Show Email"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:221
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:661
+#: includes/woo-plans/templates/fee-plans.php:242
+msgid "Show Contact Number"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:227
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:666
+#: includes/woo-plans/templates/fee-plans.php:248
+msgid "Show Web Link"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:233
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:671
+#: includes/woo-plans/templates/fee-plans.php:254
+msgid "Show Social Network"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:239
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:676
+#: includes/woo-plans/templates/fee-plans.php:260
+msgid "Allow Customer Review"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:255
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:691
+#: includes/woo-plans/templates/fee-plans.php:276
+msgid "All Categories"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:266
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:701
+#: includes/woo-plans/templates/fee-plans.php:288
+msgid "Claim Badge Included"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:288
+#: includes/woo-plans/templates/fee-plans.php:312
+msgid "Already Used!"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:288
+#: includes/woo-plans/templates/fee-plans.php:312
+msgid "Continue"
+msgstr ""
+
+#: includes/plans/templates/fee-plans.php:300
+#: includes/woo-plans/templates/fee-plans.php:323
+msgid ""
+"There is no Plan available right now. Please contact with administrator."
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:40
+#: includes/woo-plans/templates/user-dashboard-data.php:52
+msgid "Package Name"
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:41
+#: includes/plans/templates/user-dashboard-data.php:153
+#: includes/woo-plans/templates/user-dashboard-data.php:53
+#: includes/woo-plans/templates/user-dashboard-data.php:177
+msgid "Amount"
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:42
+#: includes/woo-plans/templates/user-dashboard-data.php:54
+msgid "Remaining listings"
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:43
+#: includes/woo-plans/templates/user-dashboard-data.php:55
+msgid "Payment Gateway"
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:44
+#: includes/plans/templates/user-dashboard-data.php:154
+#: includes/woo-plans/templates/user-dashboard-data.php:56
+msgid "Order Date"
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:115
+#: includes/woo-plans/templates/user-dashboard-data.php:137
+msgid "Unlimited Regular listing "
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:115
+#: includes/woo-plans/templates/user-dashboard-data.php:137
+msgid "Regular listing "
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:116
+#: includes/woo-plans/templates/user-dashboard-data.php:138
+msgid "Unlimited Featured listing "
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:116
+#: includes/woo-plans/templates/user-dashboard-data.php:138
+msgid "Featured listing "
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:118
+msgid "Bank Transfer"
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:118
+msgid "Free"
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:118
+msgid "Unknown"
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:130
+#: includes/woo-plans/templates/user-dashboard-data.php:154
+msgid "No package found!"
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:152
+#: includes/woo-plans/templates/user-dashboard-data.php:176
+msgid "Order Number"
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:155
+#: includes/woo-plans/templates/user-dashboard-data.php:179
+msgid "Plan Name"
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:156
+#: includes/woo-plans/templates/user-dashboard-data.php:180
+msgid "Payment Receipt"
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:224
+#: includes/woo-plans/templates/user-dashboard-data.php:226
+msgid "View"
+msgstr ""
+
+#: includes/plans/templates/user-dashboard-data.php:234
+#: includes/woo-plans/templates/user-dashboard-data.php:237
+msgid "No order found!"
+msgstr ""
+
+#: includes/social-login/directorist-social-login.php:255
+msgid "Facebook"
+msgstr ""
+
+#: includes/social-login/directorist-social-login.php:260
+msgid "Google"
+msgstr ""
+
+#: includes/social-login/directorist-social-login.php:281
+msgid "Sorry, something went wrong"
+msgstr ""
+
+#: includes/social-login/directorist-social-login.php:282
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: includes/social-login/directorist-social-login.php:283
+msgid "Please wait..."
+msgstr ""
+
+#: includes/social-login/directorist-social-login.php:303
+msgid "Social Login"
+msgstr ""
+
+#: includes/social-login/directorist-social-login.php:309
+msgid "Social Login API Keys"
+msgstr ""
+
+#: includes/social-login/directorist-social-login.php:314
+msgid "Facebook App ID"
+msgstr ""
+
+#: includes/social-login/directorist-social-login.php:315
+#, php-format
+msgid ""
+"To allow your visitors to log in with their Facebook account, first you must "
+"create a Facebook App. You can find your Facebook App ID and detailed "
+"information %s. or you can search in google"
+msgstr ""
+
+#: includes/social-login/directorist-social-login.php:320
+msgid "Google Clint ID"
+msgstr ""
+
+#: includes/social-login/directorist-social-login.php:321
+#, php-format
+msgid ""
+"To allow your visitors to log in with their Google account, first you must "
+"create a Google App. You can find your Google Clint ID and detailed "
+"information %s. or you can search in google"
+msgstr ""
+
+#: includes/social-login/directorist-social-login.php:327
+msgid "Social Login Settings"
+msgstr ""
+
+#: includes/social-login/directorist-social-login.php:332
+msgid "Debug"
+msgstr ""
+
+#: includes/social-login/directorist-social-login.php:333
+msgid "Enable debuging mode"
+msgstr ""
+
+#: includes/social-login/directorist-social-login.php:355
+msgid "Enable Social Login"
+msgstr ""
+
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:514
+msgid "/per package"
+msgstr ""
+
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:517
+msgid "/per listing"
+msgstr ""
+
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:571
+msgid " Days Limit"
+msgstr ""
+
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:745
+#, php-format
+msgid ""
+"Directorist - WooCommerce Pricing Plans requires %sDirectorist%s to be "
+"installed & activated!"
+msgstr ""
+
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:762
+#, php-format
+msgid ""
+"Directorist - WooCommerce Pricing Plans requires %sWooCommerce%s to be "
+"installed & activated!"
+msgstr ""
+
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:991
+msgid "Plan Status"
+msgstr ""
+
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:1077
+msgid "You can disable it for users"
+msgstr ""
+
+#: includes/woo-plans/directorist-woocommerce-pricing-plans.php:1313
+msgid "Listing Pricing Plan"
+msgstr ""
+
+#: includes/woo-plans/inc/class-woo-admin.php:33
+msgid "Listings Package"
+msgstr ""
+
+#: includes/woo-plans/templates/fee-plans.php:217
+msgid "  Gallery Image limit"
+msgstr ""
+
+#: includes/woo-plans/templates/user-dashboard-data.php:178
+msgid "Oder Date"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:33
+msgid "Listing Duration"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:36
+msgid "Listing Duration (in days)"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:48
+msgid "Never Expire"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:61
+msgid "Enter the number of listings this plan allows."
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:73
+msgid "Unlimited Listings"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:81
+#: includes/woo-plans/templates/woo-custom-fields.php:113
+#: includes/woo-plans/templates/woo-custom-fields.php:131
+#: includes/woo-plans/templates/woo-custom-fields.php:172
+#: includes/woo-plans/templates/woo-custom-fields.php:213
+#: includes/woo-plans/templates/woo-custom-fields.php:254
+#: includes/woo-plans/templates/woo-custom-fields.php:272
+#: includes/woo-plans/templates/woo-custom-fields.php:290
+#: includes/woo-plans/templates/woo-custom-fields.php:331
+#: includes/woo-plans/templates/woo-custom-fields.php:351
+#: includes/woo-plans/templates/woo-custom-fields.php:370
+#: includes/woo-plans/templates/woo-custom-fields.php:389
+#: includes/woo-plans/templates/woo-custom-fields.php:407
+#: includes/woo-plans/templates/woo-custom-fields.php:425
+#: includes/woo-plans/templates/woo-custom-fields.php:444
+#: includes/woo-plans/templates/woo-custom-fields.php:462
+#: includes/woo-plans/templates/woo-custom-fields.php:479
+#: includes/woo-plans/templates/woo-custom-fields.php:498
+#: includes/woo-plans/templates/woo-custom-fields.php:516
+#: includes/woo-plans/templates/woo-custom-fields.php:544
+msgid " Hide this from pricing plans"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:93
+msgid "Enter the number of featured listings this plan allows."
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:105
+msgid "Unlimited Featured Listings"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:142
+msgid "Allow Images"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:149
+msgid "Set Slider Image Limit"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:152
+#: includes/woo-plans/templates/woo-custom-fields.php:312
+msgid "Enter the number of images the users can upload per listing."
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:164
+msgid "Unlimited Images"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:183
+msgid "Allow Tags"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:190
+#: includes/woo-plans/templates/woo-custom-fields.php:231
+msgid "Set Limit"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:193
+msgid "Enter the number of tag the users can upload per listing."
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:205
+msgid "Unlimited Tags"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:224
+msgid "Allow Price"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:234
+msgid "Enter the number of price the users can upload per listing."
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:246
+msgid "Unlimited Price"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:282
+msgid ""
+"Business Hours (It requires <a target=\"_blank\" href=\"https://aazztech.com/"
+"product/directorist-business-hours/\">Business Hours</a> extension)"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:302
+msgid "Allow Gallery"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:309
+msgid ""
+"Gallery Image Limit (It requires <a target=\"_blank\" href=\"https://"
+"aazztech.com/product/directorist-image-gallery/\">Image Gallery</a> "
+"extension)"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:324
+msgid "Unlimited Gallery Image"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:472
+msgid ""
+"FAQs (It requires <a target=\"_blank\" href=\"https://aazztech.com/product/"
+"directorist-listing-faqs/\">Listing's FAQs</a> extension)"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:508
+msgid ""
+"Claim Badge Included (It requires <a target=\"_blank\" href=\"https://"
+"aazztech.com/product/directorist-claim-listing/\">Claim Listing</a> "
+"extension)"
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:552
+msgid " Recommend this Plan "
+msgstr ""
+
+#: includes/woo-plans/templates/woo-custom-fields.php:560
+msgid " Hide form All Plans "
+msgstr ""

@@ -1,0 +1,568 @@
+/* RTL */
+
+body.single_directory{
+    background: #fcfcfc;
+}
+
+.atbd_plans_row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+}
+
+.pricing{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.pricing.atbd_pricing_special{
+    position: relative;
+}
+
+.pricing.atbd_pricing_special .atbd_popular_badge{
+    position: absolute;
+    right: 0;
+    top: -45px;
+    width: 100%;
+    height: 45px;
+    border-radius: 3px 3px 0 0;
+    background: #fa980c;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.pricing .pricing__title h4{
+    color: #ffffff;
+    line-height: normal;
+    margin-bottom: 0;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 20px 0 !important;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pricing .pricing__title span{
+    color: #9192a3;
+    line-height: 1.8rem;
+    display: inline-block;
+}
+
+.pricing .pricing__price p.pricing_value{
+    font-size: 40px !important;
+    margin-bottom: 0;
+    line-height: initial;
+    color: #272b41;
+    font-weight: 500;
+    text-align: center !important;
+}
+
+.pricing .pricing__price p.pricing_value .regular_price{
+    font-size: 15px;
+    position: relative;
+    padding: 0 3px;
+}
+
+.pricing .pricing__price p.pricing_value .regular_price:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #222;
+}
+
+.pricing .pricing__title{
+    position: relative;
+}
+
+.pricing .pricing__title .atbd_plan-active{
+    display: inline-block;
+    line-height: 20px;
+    padding: 0 6px;
+    border-radius: 3px;
+    font-size: 13px;
+    margin-right: 10px;
+    color: #fff;
+    background: #32cc6f;
+}
+
+.pricing .pricing__price p sup{
+    font-size: 20px;
+    top: -13px;
+    color: #9299b8;
+}
+
+.pricing .pricing__price p small{
+    font-size: 13px;
+    color: #9299b8;
+    font-weight: 400;
+}
+
+.pricing.pricing--1{
+    border-radius: 3px;
+    background: #ffffff;
+    margin-top: 45px;
+    border: 1px solid #e9ebf4;
+    box-shadow: 0 10px 10px rgba(146, 153, 184, 0.08);
+}
+
+.pricing.pricing--1 .pricing__title{
+    margin-bottom: 20px;
+}
+
+.pricing.pricing--1 .pricing__title h4{
+    font-size: 16px;
+    background: #fff;
+    color: #272b41;
+    font-weight: 500;
+    border-bottom: 1px solid #ededed;
+    margin: 0;
+}
+
+.pricing.pricing--1 .pricing__price{
+    margin: 0 auto;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 20px;
+}
+
+.pricing.pricing--1 .pricing__price p{
+    margin: 0;
+}
+
+.pricing.pricing--1 .pricing__price .pricing_subtitle{
+    margin: 0;
+    color: #7a82a6;
+    font-size: 14px;
+    text-align: center !important;
+}
+
+.pricing.pricing--1 .pricing__features{
+    padding: 25px 20px 30px;
+}
+
+.pricing.pricing--1 .pricing__features ul{
+    margin: 0;
+    text-align: right;
+    padding-bottom: 25px;
+    list-style: none;
+    padding-right: 0;
+}
+
+.pricing.pricing--1 .pricing__features ul li{
+    line-height: normal;
+    list-style-type: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+    position: relative;
+    padding-right: 20px !important;
+    color: #7a82a6;
+    margin-right: 0;
+}
+
+.pricing.pricing--1 .pricing__features ul li .fa{
+    position: absolute;
+    right: 0;
+    top: 4px;
+}
+
+.pricing.pricing--1 .pricing__features ul li:last-child{
+    margin-bottom: 0;
+}
+
+.pricing.pricing--1 .pricing__features ul li span.fa{
+    margin-left: 4px;
+    width: 17px;
+    font-size: 11px;
+}
+
+.pricing.pricing--1 .pricing__features ul li span.fa-check{
+    color: #32cc6f;
+}
+
+.pricing.pricing--1 .pricing__features ul li span.fa-times{
+    color: #e23636;
+}
+
+#directorist.atbd_wrapper .btn{
+    font-size: 14px;
+    text-transform: capitalize;
+    border-color: #e3e6ef;
+}
+
+.atbd_pricing_header h3{
+    margin: 0 !important;
+}
+
+.atbd_pricing_status p{
+    margin: 10px 0 0 0 ;
+}
+
+.pricing .pricing__price p.pricing_description{
+    margin: 15px 0 0 0 !important;
+    padding: 0 25px;
+    line-height: 24px;
+    color: #7a82a6;
+    font-size: 14px;
+    text-align: center !important;
+}
+
+.pricing .price_action label{
+    display: block;
+}
+
+.pricing .price_action .price_action--btn{
+    background: #444752;
+    display: block;
+    color: #fff;
+    line-height: 30px;
+    transition: 0.3s ease;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 3px;
+}
+
+.pricing .price_action .price_action--btn:hover{
+    background: #33353d;
+}
+
+tr.field-instructions td, tr.field-type td{
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px 20px;
+}
+
+tr.field-instructions:last-child td{
+    border: 0 none;
+}
+
+tr.field-instructions td .fm_unlimited{
+    margin-right: 5px;
+}
+
+td.label > .atbd_hide{
+    margin: 7px 0 0;
+}
+
+td.label > label{
+    font-weight: 500;
+}
+
+td .option_two{
+    padding-top: 6px;
+    margin: 0;
+}
+
+.atbd_manage_fees_wrapper .table thead th{
+    font-weight: 500;
+}
+
+.atbd_manage_fees_wrapper .table tr .action p .btn-block:hover{
+    background: #33353d;
+}
+
+.atbd_manage_fees_wrapper .table tr .action p .btn-block:hover a{
+    color: #fff !important;
+}
+
+.atbdp_shortcode{
+    box-sizing: border-box;
+    background-color: #1a8bc1;
+    color: #ffffff;
+    padding: 23px 30px 30px;
+    text-align: center;
+    margin: 30px 20px 20px;
+}
+
+.atbdp_shortcode h2{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0 !important;
+    line-height: normal;
+    border-bottom: 1px solid #e3e6ef;
+    font-weight: bold;
+    font-size: 20px !important;
+    padding: 0 0 24px !important;
+}
+
+.atbdp_make_str_green{
+    color: #32cc6f;
+}
+
+.atbd_validate_note{
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+.atbd_validate_note_img{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.atpp_limit__notice{
+    margin-top: 7px;
+    display: block;
+    font-size: 13px;
+}
+
+.atpp_limit__notice::before{
+    content: "\f05a";
+    font-family: "FontAwesome";
+    padding-left: 5px;
+}
+
+#_listing_admin_plan .inside label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+#_listing_admin_plan .inside #claimer_plan{
+    width: 100%;
+}
+
+#_listing_admin_plan .inside .atpp_plans{
+    display: block;
+    margin-top: 8px;
+}
+
+.at-modal .atm-contents-inner{
+    padding: 30px;
+}
+
+.at-modal .atm-contents-inner .atbd_modal-title{
+    font-size: 22px !important;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.at-modal .atm-contents-inner .atbd_modal-header{
+    display: block;
+    padding: 0 15px 15px;
+}
+
+.at-modal .atm-contents-inner .atbd_modal-body hr{
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 15px;
+}
+
+.at-modal .atm-contents-inner .atbd_modal-body{
+    padding: 15px;
+}
+
+.at-modal .atm-contents-inner .at-modal-close{
+    width: 32px;
+    height: 32px;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    transform: none;
+    background: #444752;
+    color: #fff !important;
+    border-radius: 300px;
+    opacity: 1;
+    font-weight: 300;
+    z-index: 2;
+    font-size: 16px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.at-modal .atm-contents-inner .atbd_modal-header p a{
+    color: #32cc6f;
+}
+
+.at-modal .atm-contents-inner .dcl_pricing_plan label{
+    margin: 0;
+    font-weight: 700;
+}
+
+.at-modal .atm-contents-inner .dcl_pricing_plan input[type="radio"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    visibility: hidden;
+}
+
+.at-modal .atm-contents-inner .dcl_pricing_plan input + label{
+    position: relative;
+    padding-right: 8px;
+    font-weight: 700;
+}
+
+.at-modal .atm-contents-inner .dcl_pricing_plan input + label:before{
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border: 1px solid #b3afaf;
+    border-radius: 100%;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: .3s ease;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.at-modal .atm-contents-inner .dcl_pricing_plan input:checked + label:before{
+    border: 5px solid #444;
+}
+
+.at-modal .atm-contents-inner .dcl_pricing_plan .atbd_badge{
+    margin-right: 5px;
+    background: #32cc6f;
+    font-size: 13px;
+    color: #fff;
+    padding: 0 8px;
+    line-height: 24px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.at-modal .atm-contents-inner .dcl_pricing_plan .atbd_plan_core_features{
+    display: block;
+    margin-top: 15px;
+}
+
+.at-modal .atm-contents-inner .dcl_pricing_plan .atbd_plan_core_features span{
+    position: relative;
+    display: inline-block;
+    font-weight: normal !important;
+    margin-left: 10px;
+    padding-left: 13px;
+    color: #7a82a6;
+}
+
+.at-modal .atm-contents-inner .dcl_pricing_plan .atbd_plan_core_features span:last-child{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.at-modal .atm-contents-inner .dcl_pricing_plan .atbd_plan_core_features span:last-child:after{
+    content: none;
+}
+
+.at-modal .atm-contents-inner .dcl_pricing_plan .atbd_plan_core_features span:after{
+    position: absolute;
+    content: '|';
+    left: 0;
+    top: 0;
+}
+
+.at-modal .atm-contents-inner .atbd_modal-footer{
+    flex-direction: column;
+    padding: 0;
+    border-top: 0;
+    text-align: center;
+}
+
+.at-modal .atm-contents-inner .atbd_modal-footer .atbd_modal_btn{
+    margin-left: 0;
+    background: #444752;
+    border: 0 none;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px 15px;
+    font-size: 15px;
+    line-height: 27px;
+    border-radius: 0.25rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.at-modal .atm-contents-inner .atbd_modal-footer > span{
+    margin: 15px 0 0 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.at-modal .atm-contents-inner .atbd_modal-footer > span i{
+    color: #4caf50;
+    margin-left: 5px;
+}
+
+#directorist.atbd_wrapper span a.atpp_change_plan{
+    font-size: 14px;
+    color: #0dbe53;
+    margin-right: 2px;
+}
+
+#directorist.atbd_wrapper .dcl_pricing_plan hr{
+    margin-right: 0;
+    margin-left: 0;
+    border-color: #e9ecef;
+    max-width: 100%;
+}
+
+#directorist.atbd_wrapper .atbd_single_saved_item .package_name .atpp_plan_renew{
+    padding: 4px 10px;
+    background: #0dbe53;
+    border-radius: 3px;
+    margin-right: 5px;
+    color: #fff;
+    display: inline-block;
+}
+
+.atbd_plans_row .atbd_plan_col1{
+    width: 100%;
+}
+
+.atbd_plans_row .atbd_plan_col2{
+    width: 50%;
+}
+
+.atbd_plans_row .atbd_plan_col3{
+    width: 33.333333333333%;
+}
+
+.atbd_plans_row .atbd_plan_col4{
+    width: 25%;
+}
+
+.atbd_plans_row .atbd_plan_col5{
+    width: 20%;
+}
+
+@media (max-width: 767px){
+    .atbd_plans_row .atbd_plan_col{
+        width: 50%;
+    }
+
+    .pricing.pricing--1{
+        margin-top: 10px;
+    }
+
+    .pricing.atbd_pricing_special{
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 575px){
+    .atbd_plans_row .atbd_plan_col{
+        width: 100%;
+    }
+
+}
+

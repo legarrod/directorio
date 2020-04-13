@@ -1,0 +1,271 @@
+/* typography */
+/* typography */
+.atbd_color-primary {
+  color: #444752;
+}
+
+.atbd_bg-primary {
+  background: #444752;
+}
+
+.atbd_color-secondary {
+  color: #122069;
+}
+
+.atbd_bg-secondary {
+  background: #122069;
+}
+
+.atbd_color-success {
+  color: #32cc6f;
+}
+
+.atbd_bg-success {
+  background: #32cc6f;
+}
+
+.atbd_color-info {
+  color: #3590ec;
+}
+
+.atbd_bg-info {
+  background: #3590ec;
+}
+
+.atbd_color-warning {
+  color: #ffaf00;
+}
+
+.atbd_bg-warning {
+  background: #ffaf00;
+}
+
+.atbd_color-danger {
+  color: #e23636;
+}
+
+.atbd_bg-danger {
+  background: #e23636;
+}
+
+.atbd_color-light {
+  color: #ffffff;
+}
+
+.atbd_bg-light {
+  background: #ffffff;
+}
+
+.atbd_color-dark {
+  color: #202428;
+}
+
+.atbd_bg-dark {
+  background: #202428;
+}
+
+.atbd_color-badge-feature {
+  color: #fa8b0c;
+}
+
+.atbd_bg-badge-feature {
+  background: #fa8b0c;
+}
+
+.atbd_color-badge-popular {
+  color: #f51957;
+}
+
+.atbd_bg-badge-popular {
+  background: #f51957;
+}
+
+#directorist.atbd_wrapper .business-hour .business-hour-title {
+  margin-bottom: 10px;
+}
+
+#directorist.atbd_wrapper .business-hour .business-hour-title .module_title {
+  font-size: 15px;
+}
+
+#directorist.atbd_wrapper .business-hour .business-hour-title p {
+  font-size: 13px;
+}
+
+#directorist.atbd_wrapper .enable247hour input, #directorist.atbd_wrapper .enable247hour label {
+  display: inline-block;
+  font-weight: 400;
+}
+
+#directorist.atbd_wrapper .atbd_day_label {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+#directorist.atbd_wrapper .atbd_row_bg label {
+  font-size: 13px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+#directorist.atbd_wrapper .enable247hour {
+  margin-bottom: 15px;
+}
+
+#directorist.atbd_wrapper .atbd_backend_business_hour {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #e3e6ef;
+}
+
+#directorist.atbd_wrapper .atbd_backend_business_hour .atbd_backend_area_title {
+  margin-top: 0;
+}
+
+#directorist.atbd_wrapper .atbd_backend_business_hour .business-hour {
+  margin-bottom: 20px;
+}
+
+#directorist.atbd_wrapper .atbd_directory_open_hours ul li {
+  border-bottom: 1px solid #ededed;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+#directorist.atbd_wrapper .atbd_directory_open_hours ul li .atbd_day {
+  font-weight: 500;
+}
+
+#directorist.atbd_wrapper .atbd_mark_as_closed {
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+.directorist .atbd_widget_title .atbd_badge {
+  margin-left: 5px;
+}
+
+/* business hour tab */
+.dbh-tab__nav{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 -5px;
+}
+#directorist.atbd_wrapper .dbh-tab__nav__item{
+  display: block;
+  border: 1px solid #e3e6ef;
+  padding: 8px 15px;
+  margin: 0 5px;
+  transition: 0.3s ease;
+}
+#directorist.atbd_wrapper .dbh-tab__nav__item.active{
+  background: none;
+  color: #444752;
+  border-color: #444752;
+}
+
+.dbh-tab-panel{
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.3s ease;
+  height: 0;
+}
+.dbh-tab-panel.active{
+  height: auto;
+  opacity: 1;
+  overflow: visible;
+}
+
+
+.dbh-hours-type{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 25px -10px 0;
+}
+.dbh-checkbox{
+  margin: 0 10px;
+}
+.dbh-checkbox label{
+  margin: 0 !important;
+}
+.dbh-select-hours{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin: 0 -10px;
+}
+.dbh-select-hours--list{
+  margin-top: 28px;
+}
+#directorist.atbd_wrapper  .dbh-select-from{
+  flex: 1;
+  margin: 0 10px;
+  position: relative;
+}
+#directorist.atbd_wrapper  .dbh-select-from label{
+  display: block;
+  font-weight: 500;
+}
+#directorist.atbd_wrapper  .dbh-select-from input{
+  width: 100%;
+  height: 46px;
+  padding: 0 15px;
+}
+#directorist.atbd_wrapper .dbh-select-hours + .dbh-select-hours{
+  margin-top: 13px;
+}
+#directorist.atbd_wrapper .dbh-select-hours .dbh-remove{
+  margin: 0 10px;
+  display: block;
+  height: 46px;
+  border: 0 none;
+  background: #444752;
+  color: #fff;
+  border-radius: 3px;
+  width: 46px;
+}
+#directorist.atbd_wrapper .dbh-default-times{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 79px;
+  border: 1px solid #e3e6ef;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  background: #fff;
+  z-index: 9999;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+#directorist.atbd_wrapper .dbh-default-times li a{
+  display: block;
+  padding: 7px 15px;
+  border-bottom: 1px solid #e3e6ef;
+}
+#directorist.atbd_wrapper .dbh-add-hours{
+  margin-top: 20px;
+}
+#directorist.atbd_wrapper .dbh-timezone{
+  margin-top: 23px;
+}
+#directorist.atbd_wrapper .dbh-timezone label{
+  display: block;
+  font-weight: 500;
+}
+#directorist.atbd_wrapper .dbh-timezone select{
+  display: block;
+  width: 100%;
+  height: 46px;
+}
+#directorist.atbd_wrapper .dbh-wrapper__tab{
+  margin-top: 15px;
+}
+#directorist.atbd_wrapper .dbh-extras{}
+#directorist.atbd_wrapper .dbh-extras .enable247hour{
+  margin-bottom: 0;
+}
+

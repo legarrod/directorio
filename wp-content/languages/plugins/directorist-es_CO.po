@@ -1,0 +1,1598 @@
+# Translation of Plugins - Directorist &#8211; Business Directory Plugin - Development (trunk) in Spanish (Colombia)
+# This file is distributed under the same license as the Plugins - Directorist &#8211; Business Directory Plugin - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-03-12 15:03:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es_CO\n"
+"Project-Id-Version: Plugins - Directorist &#8211; Business Directory Plugin - Development (trunk)\n"
+
+#: templates/add-listing.php:43 templates/front-end/add-listing.php:110
+msgid "Short Description/Excerpt:"
+msgstr "Descripción Corta/Extracto:"
+
+#: templates/search-at_biz_dir.php:13
+msgid " in \"%s\" Location"
+msgstr "en \"%s\" Localización"
+
+#: templates/search-at_biz_dir.php:12
+msgid " from \"%s\" Category"
+msgstr "desde \"%s\" Categoría"
+
+#: templates/search-at_biz_dir.php:11
+msgid " from \"%s\" Tag"
+msgstr "desde \"%s\" Etiqueta"
+
+#: templates/search-at_biz_dir.php:10
+msgid "Search Result:"
+msgstr "Resultado de la Búsqueda:"
+
+#: templates/search-at_biz_dir.php:10
+msgid "Search Result for: \"%s\""
+msgstr "Resultado de la Búsqueda para: \"%s\""
+
+#: templates/meta-partials/social.php:77
+msgid "Add New"
+msgstr "Agregar Nuevo"
+
+#: templates/meta-partials/social.php:11
+msgid "Social Information:"
+msgstr "Información Social: "
+
+#: templates/front-end/user-dashboard.php:97
+msgid "Looks like you have not created any listing yet!"
+msgstr "¡Parece que aún no has creado ningún anuncio!"
+
+#: templates/front-end/add-listing.php:169
+msgid "Tags:"
+msgstr "Etiquetas:"
+
+#: templates/ajax/social.php:23 templates/meta-partials/social.php:36
+msgid "Remove this item"
+msgstr "Eliminar este elemento"
+
+#: templates/add-listing.php:315 templates/front-end/add-listing.php:474
+msgid "Geocode was not successful for the following reason: "
+msgstr "Geocode no tuvo éxito por la siguiente razón:"
+
+#: templates/add-listing.php:254 templates/add-listing.php:337
+#: templates/front-end/add-listing.php:415
+#: templates/front-end/add-listing.php:498
+msgid "You can drag the marker to your desired place to place a marker"
+msgstr "Puedes arrastrar el marcador a un lugar deseado para poner un marcador"
+
+#: templates/add-listing.php:80 templates/front-end/add-listing.php:213
+msgid "Website:"
+msgstr "Página Web:"
+
+#: templates/add-listing.php:73 templates/front-end/add-listing.php:206
+msgid "Email:"
+msgstr "Correo Electrónico:"
+
+#: templates/add-listing.php:66 templates/front-end/add-listing.php:199
+msgid "Phone Number:"
+msgstr "Número telefónico:"
+
+#: templates/add-listing.php:59 templates/front-end/add-listing.php:192
+msgid "Address:"
+msgstr "Dirección:"
+
+#: templates/add-listing.php:40 templates/front-end/add-listing.php:107
+msgid "Your Organization's motto or tag-line"
+msgstr "Lema o línea de etiqueta de su organización"
+
+#: templates/add-listing.php:39 templates/front-end/add-listing.php:106
+msgid "Tag-line/Motto"
+msgstr "Línea de etiqueta/Lema"
+
+#: includes/libs/vafpress/views/option/set.php:70
+#: includes/libs/vafpress/views/option/set.php:85
+msgid "Saving Now"
+msgstr "Guardar Ahora"
+
+#: includes/libs/vafpress/views/option/restore.php:14
+msgid "** Please make sure you have already make a backup data of your current settings. Once you click this button, your current settings will be gone."
+msgstr "**Por favor, asegúrese de realizar una copia de seguridad a su base de datos actual desde los Ajustes. Una vez que hagas clic en el botón, los ajustes actuales desaparecerán. "
+
+#: includes/libs/vafpress/views/option/restore.php:7
+msgid "Restore options to initial default values."
+msgstr "Restaurar los valores iniciales de las opciones."
+
+#: includes/libs/vafpress/views/option/restore.php:4
+msgid "Restore Default Options"
+msgstr "Restaurar las Opciones por Defecto"
+
+#: includes/libs/vafpress/views/option/impexp.php:30
+msgid "Export Options"
+msgstr "Exportar Opciones"
+
+#: includes/libs/vafpress/views/option/impexp.php:27
+#: includes/libs/vafpress/views/option/impexp.php:37
+msgid "Export"
+msgstr "Exportar"
+
+#: includes/libs/vafpress/views/option/impexp.php:7
+msgid "Import Options"
+msgstr "Importar Opciones"
+
+#: includes/libs/vafpress/views/option/impexp.php:4
+#: includes/libs/vafpress/views/option/impexp.php:14
+msgid "Import"
+msgstr "Importar"
+
+#: includes/libs/vafpress/config/messages.php:45
+msgid "Select an Icon"
+msgstr "Seleccione un Icono"
+
+#: includes/libs/vafpress/config/messages.php:43
+msgid "Select option(s)"
+msgstr "Selección de opción(es)"
+
+#: includes/libs/vafpress/config/messages.php:35
+msgid "Restoration failed"
+msgstr "Restauración fallida"
+
+#: includes/libs/vafpress/config/messages.php:34
+msgid "Options identical to default"
+msgstr "Opciones idénticas al predeterminado"
+
+#: includes/libs/vafpress/config/messages.php:33
+msgid "Restoration succeed, option page will be refreshed.."
+msgstr "Restauración con éxito, se actualizará la página de opciones.."
+
+#: includes/libs/vafpress/config/messages.php:32
+msgid "Export failed"
+msgstr "Exportación Fallida"
+
+#: includes/libs/vafpress/config/messages.php:31
+msgid "Export succeed, copy the JSON formatted options"
+msgstr "Exportación con éxito, copie las opciones del formato JSON"
+
+#: includes/libs/vafpress/config/messages.php:30
+msgid "Import failed"
+msgstr "Importación fallida"
+
+#: includes/libs/vafpress/config/messages.php:29
+msgid "Import succeed, option page will be refreshed.."
+msgstr "Importación con éxito, se actualizará la página de opciones.."
+
+#: includes/libs/vafpress/config/messages.php:22
+msgid "This is required"
+msgstr "Esto es requerido"
+
+#: includes/libs/vafpress/config/messages.php:21
+msgid "Select at least {0} items"
+msgstr "Seleccione por lo menos {0} elementos"
+
+#: includes/libs/vafpress/config/messages.php:20
+msgid "Select no more than {0} items"
+msgstr "No seleccione más de {0} elementos"
+
+#: includes/libs/vafpress/config/messages.php:19
+msgid "Length needs to be more than {0} characters"
+msgstr "La longitud debe ser superior a {0} caracteres"
+
+#: includes/libs/vafpress/config/messages.php:18
+msgid "Length needs to be less than {0} characters"
+msgstr "La longitud debe ser inferior a {0} caracteres"
+
+#: includes/libs/vafpress/config/messages.php:17
+msgid "Value needs to be Valid URL"
+msgstr "El valor debe ser una URL válida"
+
+#: includes/libs/vafpress/config/messages.php:16
+msgid "Value needs to be Valid Email"
+msgstr "El valor debe ser un Correo Electrónico válido"
+
+#: includes/libs/vafpress/config/messages.php:15
+msgid "Value needs to be Numeric"
+msgstr "El valor debe ser Numérico"
+
+#: includes/libs/vafpress/config/messages.php:14
+msgid "Value needs to be Alphanumeric"
+msgstr "El valor debe ser Alfanumérico"
+
+#: includes/libs/vafpress/config/messages.php:13
+msgid "Value needs to be Alphabet"
+msgstr "El valor debe ser Alfabético"
+
+#: includes/libs/vafpress/classes/shortcodegenerator.php:261
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/libs/vafpress/classes/shortcodegenerator.php:260
+msgid "Insert"
+msgstr "Insertar"
+
+#: includes/libs/vafpress/classes/option.php:488
+msgid "Export/Import"
+msgstr "Exportar/Importar"
+
+#: includes/libs/vafpress/classes/option.php:479
+#: includes/libs/vafpress/views/option/restore.php:13
+msgid "Restore Default"
+msgstr "Restaurar por Defecto"
+
+#: includes/libs/vafpress/classes/option.php:473
+msgid "Import/Export"
+msgstr "Importar/Exportar"
+
+#: includes/libs/vafpress/classes/option.php:460
+msgid "Invalid template supplied"
+msgstr "Plantilla suministrada no es válida "
+
+#: includes/libs/vafpress/classes/option.php:394
+msgid "Unverified Access"
+msgstr "Acceso no verificado"
+
+#: includes/libs/vafpress/classes/option.php:331
+msgid "Invalid data"
+msgstr "Datos no válidos"
+
+#: includes/libs/vafpress/classes/option.php:306
+msgid "Can not be empty"
+msgstr "No puede estar vacío "
+
+#: includes/libs/vafpress/classes/option.php:167
+msgid "Development Mode is Active, options' values won't be saved into database."
+msgstr "Modo en Desarrollo Activado, los valores de opciones no se guardarán en la base de datos."
+
+#: includes/libs/vafpress/classes/option.php:65
+msgid "Page Slug is required"
+msgstr "El Slug de página es requerido"
+
+#: includes/libs/vafpress/classes/option.php:63
+msgid "Template Array/File is required"
+msgstr "El Array/Archivo de la plantilla es requerido"
+
+#: includes/libs/vafpress/classes/option.php:61
+msgid "Option Key is required"
+msgstr "La opción Llave es requerida"
+
+#: includes/libs/vafpress/classes/option.php:47
+#: includes/libs/vafpress/classes/option.php:48
+msgid "Vafpress Options"
+msgstr "Opciones Vafpress"
+
+#: includes/libs/vafpress/classes/option/control/set.php:376
+msgid "No changes made"
+msgstr "Sin cambios realizados"
+
+#: includes/libs/vafpress/classes/option/control/set.php:370
+msgid "Saving failed"
+msgstr "Fallo en guardar"
+
+#: includes/libs/vafpress/classes/option/control/set.php:359
+msgid "Saving successful"
+msgstr "Se guardó exitosamente"
+
+#: includes/libs/vafpress/classes/metabox.php:35
+msgid "[Development Mode] "
+msgstr "[Modo Desarrollo] "
+
+#: includes/libs/vafpress/classes/metabox/alchemy.php:515
+#: includes/libs/vafpress/classes/metabox.php:588
+msgid "Add More"
+msgstr "Agregar Mas"
+
+#: includes/libs/vafpress/bootstrap.php:99
+msgid "Unauthorized function"
+msgstr "Función no Autorizada"
+
+#: includes/libs/vafpress/bootstrap.php:88
+#: includes/libs/vafpress/classes/option.php:364
+#: includes/libs/vafpress/classes/option.php:389
+msgid "Successful"
+msgstr "Exitoso"
+
+#: includes/classes/class-settings-manager.php:577
+msgid "Enter how many reviews you would like to show on your website. Eg. 5. Default is 5. It will work if Review option is enabled."
+msgstr "Ingrese el número de comentarios que desea mostrar en su sitio Web. Ej. 5. Funcionará si la opción Revisar está activada."
+
+#: includes/classes/class-settings-manager.php:569
+msgid "Choose whether you want to allow a listing OWNER to post a review on his/her OWN listing on Single listing details page or not. Default is ON."
+msgstr "Seleccione si desea que un PROPIETARIO de un anuncio pueda publicar o no, una reseña en su PROPIO listado dentro de la página de listas detalladas. Por defecto esta en ON."
+
+#: includes/classes/class-settings-manager.php:568
+msgid "Enable Owner Review"
+msgstr "Permitir revisión del propietario"
+
+#: includes/classes/class-settings-manager.php:560
+msgid "Enable Reviews & Rating"
+msgstr "Habilitar revisiones y Valoraciones"
+
+#: includes/classes/class-settings-manager.php:539
+msgid "Please Select your Listing Search Result page ( where you used %s shortcode ) ID here. This page is used to show listing search results but this page is generally should be excluded from the menu."
+msgstr "Por favor, seleccione dentro de la página de Resultados el listado de búsqueda (donde se uso %s shortcode) ID aquí. Esta página es usada para mostrar el listado de resultados, pero a su vez, esta página debe ser excluida del menú."
+
+#: includes/classes/class-settings-manager.php:537
+msgid "Add Listing Search Result page ID"
+msgstr "Agregar el ID de página a los listados de búsqueda"
+
+#: includes/classes/class-settings-manager.php:529
+msgid "Select your Listing Search page ( where you used %s shortcode ) ID here. This is generally used in a home page."
+msgstr "Seleccione de la página, su lista de búsqueda (donde se uso %s shortcode) ID aquí. Esto generalmente se usa en el inicio de página."
+
+#: includes/classes/class-settings-manager.php:518
+msgid "Select your registration page ( where you used %s  shortcode ) ID here"
+msgstr "Seleccione su página de registro (donde se uso %s shortcode) ID aquí."
+
+#: includes/classes/class-settings-manager.php:507
+msgid "Select your add dashboard page ( where you used %s shortcode ) ID here"
+msgstr "Seleccione su página de Escritorio (donde se uso %s shortcode) ID aquí "
+
+#: includes/classes/class-settings-manager.php:496
+msgid "Select your All Listings  page ( where you used %s shortcode ) ID here."
+msgstr "Seleccione su página todos los listados (donde se uso %s shortcode) ID aquí"
+
+#: includes/classes/class-settings-manager.php:494
+msgid "Add All Listings Page ID"
+msgstr "Agregar el ID de página a todas las listas"
+
+#: includes/classes/class-settings-manager.php:485
+msgid "Select your add listing page ( where you used %s shortcode ) ID here"
+msgstr "Seleccione la página Añadir listados (donde se uso %s shortcode) ID aquí"
+
+#: includes/classes/class-settings-manager.php:451
+msgid "Enable related listings on Single Listing page"
+msgstr "Habilitar los listados relacionados en la página de listado único"
+
+#: includes/classes/class-settings-manager.php:430
+msgid "Enable popular listings on Single Listing page"
+msgstr "Habilitar los listados populares en la página de listado único "
+
+#: includes/classes/class-settings-manager.php:392
+msgid "Set how many listings you would like to show on the All Listings page. Eg. 6. Default is 6"
+msgstr "Establecer cuantos listados le gustaría mostrar en la página de todos los listados. Ej. 6. Por defecto es 6"
+
+#: includes/classes/class-settings-manager.php:391
+msgid "Number of Listings on All listing page"
+msgstr "Número de listados en la página de todos los listados"
+
+#: includes/classes/class-settings-manager.php:385
+msgid "Enter a title for the page where all listings will be shown using the shortcode [all_listing] . Eg. All Listings/ Items."
+msgstr "Ingrese el título para la página de todos los listados que se van a mostrar en el shortcode [all_listing]. Ej. Todas las listas/Elementos."
+
+#: includes/classes/class-settings-manager.php:356
+msgid "Number of Search Results"
+msgstr "Número de Resultados de búsqueda"
+
+#: includes/classes/class-settings-manager.php:351
+#: includes/classes/class-shortcode.php:27
+msgid "Sorry, No Matched Results Found !"
+msgstr "¡Lo siento!, ¡No se encontraron resultados coincidentes!"
+
+#: includes/classes/class-settings-manager.php:350
+msgid "Enter the text that you would like to display when a search finds zero results. Eg. Sorry, No Matched Results Found !"
+msgstr "Ingrese el texto que desea mostrar cuando en una búsqueda se encuentra con cero resultados. Ej. ¡Lo siento!, ¡No se han encontrado resultados coincidentes!"
+
+#: includes/classes/class-settings-manager.php:349
+msgid "Text For \"Search - No Result Found\""
+msgstr "Texto para \"Búsqueda - No se Encontraron Resultados\""
+
+#: includes/classes/class-settings-manager.php:309
+msgid "NOTE: If changing this option does not work, then do not worry. Just go to \"WordPress Dashboard>Settings>Permalinks\" and just click save. It should work fine now."
+msgstr "NOTA: Si los cambios para esta opción no funcionan de forma correcta, no se preocupe.  Solo dirígete a \"WordPress Escritorio > Ajustes > Enlaces permanentes\"  y haga clic para guardar. Ahora funcionará de forma correcta."
+
+#: includes/classes/class-settings-manager.php:308
+msgid "Tips & Troubleshooting:"
+msgstr "Consejos y Solución de problemas:"
+
+#: includes/classes/class-settings-manager.php:300
+msgid "Tag slug"
+msgstr "Etiquetas Slug"
+
+#: includes/classes/class-settings-manager.php:293
+msgid "Location slug"
+msgstr "Localización Slug"
+
+#: includes/classes/class-settings-manager.php:286
+msgid "Category slug"
+msgstr "Categoría Slug"
+
+#: includes/classes/class-settings-manager.php:279
+msgid "Listing slug"
+msgstr "Listado Slug"
+
+#: includes/classes/class-settings-manager.php:273
+msgid "Slugs must contain only alpha-numeric characters, underscores or dashes. All slugs must be unique and different."
+msgstr "El Slug debe contener solo caracteres alfa-numéricos,  guiones bajos o guiones. Todos los Slugs deben ser únicos y diferentes."
+
+#: includes/classes/class-settings-manager.php:272
+msgid "Notice about slugs:"
+msgstr "Noticias acerca de los Slugs:"
+
+#: includes/classes/class-settings-manager.php:253
+msgid "You can turn this option ON to hide the \"Login/Registration\" widget from the listing sidebar on Listing Detailed Page."
+msgstr "Usted puede seleccionar esta opción en modo ON para ocultar el widget de \"Acceso/Registro\" del listado de la barra lateral dentro de la página detallada de listado."
+
+#: includes/classes/class-settings-manager.php:252
+msgid "Hide Log In/Registration Widget"
+msgstr "Ocultar Widget de Acceso/Registro"
+
+#: includes/classes/class-settings-manager.php:246
+msgid "You can turn this option ON to hide the \"Submit New Listing\" widget from the listing sidebar on Listing Detailed page."
+msgstr "Usted puede seleccionar esta opción en modo ON para ocultar el widget \"Enviar nuevo listado\" del listado de la barra lateral dentro de la página detallada de listado."
+
+#: includes/classes/class-settings-manager.php:245
+msgid "Hide Submit Listing Widget"
+msgstr "Ocultar Widget envío de listado"
+
+#: includes/classes/class-settings-manager.php:239
+msgid "You can turn this option ON to disable Bootstrap CSS in the Admin Area of Directoria. It is better to keep this option turned off to load bootstrap css in the admin area of this plugin, unless you have a good reason to turn it ON"
+msgstr "Usted puede seleccionar esta opción en modo ON para deshabilitar el CSS de Bootstrap dentro del área de Administración de Directoria. Es recomendable mantener esta opción en modo OFF para cargar el css de bootstrap en el área de Administración de este plugin, a menos que tengas una buena razón para accionarlo en ON."
+
+#: includes/classes/class-settings-manager.php:238
+msgid "Do not include Plugin's Bootstrap CSS in the Backend"
+msgstr "No incluya en el Plugin el CSS de Bootstrap en el Backend"
+
+#: includes/classes/class-settings-manager.php:232
+msgid "You can turn this option ON to disable Bootstrap CSS in the Front-End if your theme is using bootstrap CSS already and you are facing problem."
+msgstr "Usted puede seleccionar esta opción en modo ON para deshabilitar el CSS de Bootstrap en el Front-End si tu tema actual está usando CSS bootstrap y presenta problemas."
+
+#: includes/classes/class-settings-manager.php:231
+msgid "Do not include Plugin's Bootstrap CSS in the Front-End"
+msgstr "No incluya en el Plugin CSS de Bootstrap en el Front-End"
+
+#: includes/classes/class-settings-manager.php:213
+msgid "You can adjust the zoom level of the map. 0 means 100% zoom-out. 22 means 100% zoom-in. Minimum Zoom Allowed = 1. Max Zoom Allowed = 22. Default is 16. "
+msgstr "Puedes ajustar el nivel del zoom del mapa. 0 a 100% zoom-out. 22 a 100% zoom-in. Mínimo del zoom permitido = 1. Max Zoom Permitido = 22. Por defecto es 16."
+
+#: includes/classes/class-settings-manager.php:212
+msgid "Google Map Zoom Level"
+msgstr "Nivel de Zoom Google Map"
+
+#: includes/classes/class-settings-manager.php:204
+msgid "You need to enter your google map api key in order to display google map. You can find your map api key and detailed information %s. or you can search in google"
+msgstr "Necesitas entrar con la orden de su api key de google map para mostrarlo en google map. Usted puede encontrar su mapa en el api key y detallar la información %s. o puedes realizar una búsqueda en google"
+
+#: includes/classes/class-settings-manager.php:182
+msgid "You can Customize Extensions-related settings here. You can enable or disable any extensions here. Here, ON means Enabled, and OFF means disabled. After switching any option, Do not forget to save the changes."
+msgstr "Puedes personalizar desde aquí los ajustes de las extensiones-relacionadas. Usted puede dejar habilitado o inhabilitado cualquier extensión desde aquí.  ON significa Habilitado, y OFF Inhabilitado. Tras cambiar cualquier opción, no olvides salvar los cambios. "
+
+#: includes/classes/class-settings-manager.php:181
+msgid "Extensions General Settings"
+msgstr "Ajustes Generales de Extensiones"
+
+#: includes/classes/class-settings-manager.php:175
+msgid "Extensions General"
+msgstr "General Extensiones "
+
+#: includes/classes/class-settings-manager.php:156
+msgid "You can Customize General settings here. After switching any option, Do not forget to save the changes."
+msgstr "Puedes personalizar los ajustes Generales desde aquí. Tras cambiar cualquier opción, no olvides salvar los cambios."
+
+#: includes/classes/class-settings-manager.php:149
+msgid "Home"
+msgstr "Inicio"
+
+#: includes/classes/class-settings-manager.php:111
+msgid "Extensions Settings"
+msgstr "Ajustes de Extensiones"
+
+#: includes/classes/class-settings-manager.php:103
+msgid "Pages, links & views Settings"
+msgstr "Configuración Páginas, enlaces y vistas"
+
+#: includes/classes/class-settings-manager.php:98
+msgid "Pages, links & views"
+msgstr "Páginas, enlaces y vistas"
+
+#: includes/classes/class-settings-manager.php:90
+#: includes/classes/class-settings-manager.php:104
+msgid "You can Customize Listings related settings here. After switching any option, Do not forget to save the changes."
+msgstr "Puedes personalizar ajustes para los listados relacionados desde aquí.Tras cambiar cualquier opción, no olvides salvar los cambios."
+
+#: includes/classes/class-settings-manager.php:89
+msgid "Listings Settings"
+msgstr "Ajustes de Listados"
+
+#: includes/classes/class-settings-manager.php:84
+msgid "Listings settings"
+msgstr "Ajustes de listados"
+
+#: includes/classes/class-settings-manager.php:76
+msgid "You can Customize Listing Search related settings here. After switching any option, Do not forget to save the changes."
+msgstr "Puedes personalizar los ajustes para los listados de búsqueda relacionados desde aquí. Tras cambiar cualquier opción, no olvides salvar los cambios."
+
+#: includes/classes/class-settings-manager.php:75
+msgid "Search Settings"
+msgstr "Ajustes de Búsqueda"
+
+#: includes/classes/class-settings-manager.php:70
+msgid "Search settings"
+msgstr "Ajustes de búsqueda"
+
+#: includes/classes/class-settings-manager.php:62
+msgid "Slugs & Permalinks"
+msgstr "Slugs y Enlaces Permanentes"
+
+#: includes/classes/class-settings-manager.php:57
+msgid "Permalinks settings"
+msgstr "Ajustes Enlaces permanentes"
+
+#: includes/classes/class-settings-manager.php:49
+msgid "General settings"
+msgstr "Ajustes Generales"
+
+#: includes/classes/class-settings-manager.php:27
+#: includes/classes/class-settings-manager.php:28
+msgid "Directory settings"
+msgstr "Ajustes del directorio"
+
+#: includes/classes/class-enqueuer.php:107
+msgid "Select an icon"
+msgstr "Seleccione un icono"
+
+#: includes/classes/class-custom-taxonomy.php:207
+msgctxt "Tag singular name"
+msgid "Directory Tag"
+msgstr "Etiqueta del Directorio"
+
+#: includes/classes/class-custom-taxonomy.php:206
+msgctxt "Tag general name"
+msgid "Directory Tags"
+msgstr "Etiquetas del Directorio"
+
+#: includes/classes/class-custom-taxonomy.php:44
+#: includes/classes/class-custom-taxonomy.php:55
+msgid "View"
+msgstr "Ver"
+
+#. translators: %s: taxonomy term name
+#: includes/classes/class-custom-taxonomy.php:43
+#: includes/classes/class-custom-taxonomy.php:54
+msgid "View &#8220;%s&#8221; archive"
+msgstr "Ver &#8220;%s&#8221; archivo"
+
+#: includes/classes/class-custom-post.php:183
+msgid "Enter your listing name"
+msgstr "Ingrese el nombre del listado"
+
+#: directorist-base.php:788
+msgid "No reviews found. Be the first to post a review !"
+msgstr "No se encontraron comentarios. ¡Se el primero en publicar un comentario!"
+
+#: directorist-base.php:765
+msgid "Reviews"
+msgstr "Comentarios"
+
+#: directorist-base.php:341
+msgid "Registration"
+msgstr "Registro"
+
+#: directorist-base.php:337
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: directorist-base.php:333
+msgid "All Listings"
+msgstr "Todos los Listados"
+
+#: directorist-base.php:325
+msgid "Search Result"
+msgstr "Resultados de la Búsqueda"
+
+#: directorist-base.php:321
+msgid "Search Home"
+msgstr "Inicio de Búsqueda"
+
+#: templates/single-at_biz_dir.php:19
+msgid "Business Hour"
+msgstr "Horario de Trabajo"
+
+#: templates/single-at_biz_dir.php:18
+msgid "Open 24/7"
+msgstr "Abierto 24/7"
+
+#: templates/media-upload.php:40
+msgid "Remove Images"
+msgstr "Eliminar Imágenes"
+
+#: templates/media-upload.php:38
+msgid "Upload Image"
+msgstr "Subir imágen"
+
+#: templates/media-upload.php:23
+msgid "Remove it"
+msgstr "Eliminar"
+
+#: templates/front-end/add-listing.php:26
+msgid "No Title "
+msgstr "Sin Título"
+
+#: templates/extension.php:30
+msgid "View demo"
+msgstr "Ver demostración"
+
+#: templates/extension.php:27
+msgid "You can enable multiple image uploading feature in your listing adding page using this extension."
+msgstr "Puede activar la función de subidas múltiples de imágenes desde la pagina de listado usando esta extensión."
+
+#: templates/extension.php:14 templates/extension.php:31
+msgid "Get extension"
+msgstr "Obtener extensión"
+
+#: templates/extension.php:13
+msgid "View Demo"
+msgstr "Ver Demostración"
+
+#: templates/extension.php:10
+msgid "You can show Business hours / opening hours of a listing by this extension."
+msgstr "Puede mostrar el horario de Trabajo / horario de apertura de un listado por esta extensión."
+
+#: includes/classes/class-widget.php:68
+msgid "No of Listings:"
+msgstr "Nº de Listados:"
+
+#: includes/classes/class-widget.php:61 templates/front-end/add-listing.php:78
+msgid "Title:"
+msgstr "Título:"
+
+#: includes/classes/class-widget.php:20 includes/classes/class-widget.php:35
+#: includes/classes/class-widget.php:57
+msgid "Popular Listings"
+msgstr "Listas populares"
+
+#: includes/classes/class-widget.php:16
+msgid "You can show popular listing by this widget"
+msgstr "Puede mostrar los listados populares con esta widget"
+
+#: includes/classes/class-settings-manager.php:576
+msgid "Number of Reviews"
+msgstr "Número de revisiones"
+
+#: includes/classes/class-settings-manager.php:561
+msgid "Choose whether you want to display reviews form on Single listing details page or not. Default is ON."
+msgstr "Seleccione opcionalmente si va a mostrar los comentarios en formulario dentro de una sola página detallada. Por defecto esta en ON."
+
+#: includes/classes/class-settings-manager.php:460
+msgid "Set how many related listings you would like to show on your website. Eg. 2. Default is 2."
+msgstr "Ingrese la cantidad de listas relacionadas que desea mostrar en su sitio web. Ej. 2. Por defecto es 2."
+
+#: includes/classes/class-settings-manager.php:459
+msgid "Number of Related Listings"
+msgstr "Cantidad de listados relacionados"
+
+#: includes/classes/class-settings-manager.php:452
+msgid "Choose whether you want to display related listings on Single listing details page or not. Default is ON."
+msgstr "Seleccione opcionalmente si desea mostrar los listados relacionados en una sola página de forma detallada. Por defecto esta en ON."
+
+#: includes/classes/class-settings-manager.php:439
+msgid "Set how many popular listings you would like to show on your website. Eg. 5. Default is 5."
+msgstr "Ingrese la cantidad de listas populares que desea mostrar en su sitio web. Ej. 5. Por defecto es 5."
+
+#: includes/classes/class-settings-manager.php:438
+msgid "Number of Popular Listings"
+msgstr "Número de listados populares"
+
+#: includes/classes/class-settings-manager.php:431
+msgid "Choose whether you want to display popular listings on Single listing details page or not. Default is ON."
+msgstr "Seleccione opcionalmente si desea mostrar las listas populares en una sola página de forma detallada. Por defecto esta en ON."
+
+#: includes/classes/class-enqueuer.php:109
+#: includes/classes/class-enqueuer.php:268
+msgid "Use this Image"
+msgstr "Usar esta imágen"
+
+#: includes/classes/class-enqueuer.php:108
+#: includes/classes/class-enqueuer.php:267
+msgid "Select or Upload Listing Image"
+msgstr "Seleccione o suba la imagen del listado"
+
+#: includes/classes/class-enqueuer.php:266
+msgid "Select or insert new tags separated by a comma, or space"
+msgstr "Seleccione o inserte nuevas etiquetas separadas por una coma o espacio"
+
+#: includes/classes/class-enqueuer.php:106
+#: includes/classes/class-enqueuer.php:263
+msgid "Deleted!"
+msgstr "¡Eliminado!"
+
+#: includes/classes/class-enqueuer.php:105
+#: includes/classes/class-enqueuer.php:262
+msgid "Yes, Delete it!"
+msgstr "Si, ¡Elimínelo!"
+
+#: includes/classes/class-enqueuer.php:104
+#: includes/classes/class-enqueuer.php:261
+msgid "Do you really want to remove this Social Link!"
+msgstr "¡Realmente desea eliminar este Enlace Social!"
+
+#: includes/classes/class-enqueuer.php:103
+#: includes/classes/class-enqueuer.php:260
+msgid "Are you sure"
+msgstr "¿Estas seguro?"
+
+#: directorist-base.php:801
+msgid "View More Review"
+msgstr "Ver más comentarios"
+
+#: directorist-base.php:754
+msgid "You need to %s or %s to submit a review"
+msgstr "Necesitas hasta %s o %s para enviar una revisión"
+
+#: directorist-base.php:751
+msgid "Login"
+msgstr "Acceder"
+
+#: directorist-base.php:735
+msgid "Submit Review"
+msgstr "Enviar comentario"
+
+#: directorist-base.php:733
+#: includes/libs/vafpress/classes/metabox/alchemy.php:493
+#: includes/libs/vafpress/classes/metabox.php:566
+msgid "Remove"
+msgstr "Eliminar"
+
+#: directorist-base.php:732
+msgid "Update"
+msgstr "Actualizar"
+
+#: directorist-base.php:726
+msgid "Write your review....."
+msgstr "Escriba su comentario..."
+
+#: directorist-base.php:726
+msgid "Update your review....."
+msgstr "Actualice su comentario..."
+
+#: directorist-base.php:713
+msgid "Your Rating:"
+msgstr "Tu Calificación:"
+
+#: directorist-base.php:713
+msgid "Give New Rating:"
+msgstr "Dar una nueva valoración:"
+
+#: directorist-base.php:705
+msgid "Current Rating:"
+msgstr "Valoración Actual:"
+
+#: directorist-base.php:688
+msgid "Leave a Review"
+msgstr "Dejar comentario"
+
+#: directorist-base.php:688
+msgid "Update Review"
+msgstr "Actualizar comentario"
+
+#: directorist-base.php:653
+msgid "review"
+msgstr "comentario"
+
+#: directorist-base.php:653
+msgid "reviews"
+msgstr "comentarios"
+
+#: directorist-base.php:567
+msgid "Location: "
+msgstr "Ubicación:"
+
+#: directorist-base.php:506
+msgid "Related Items"
+msgstr "Elementos Relacionados"
+
+#: includes/classes/class-enqueuer.php:264
+#: includes/classes/class-enqueuer.php:322 templates/listing-home.php:57
+msgid "Select a location"
+msgstr "Seleccione una ubicación"
+
+#: includes/classes/class-enqueuer.php:265
+#: includes/classes/class-enqueuer.php:323 templates/listing-home.php:44
+msgid "Select a category"
+msgstr "Seleccionar una categoría"
+
+#: templates/front-end/all-listing.php:34
+msgid "Total Results Found: "
+msgstr "Resultados totales encontrados:"
+
+#: includes/helper-functions.php:346
+msgid "Posts navigation"
+msgstr "Mensajes de navegación"
+
+#: includes/classes/class-settings-manager.php:403
+msgid "You can show popular category on search page or you can hide it here."
+msgstr "Muestre la categoría popular en la página de búsqueda u ocúltela desde aquí."
+
+#: includes/classes/class-settings-manager.php:402
+msgid "Show popular category on the search page"
+msgstr "Mostrar categoría popular en la página de búsqueda"
+
+#: templates/front-end/all-listing.php:18
+msgid "All Items"
+msgstr "Todos los elementos"
+
+#: includes/classes/class-settings-manager.php:384
+msgid "Title for all listing page"
+msgstr "Título para todas las paginas de listado"
+
+#. Author URI of the plugin/theme
+msgid "https://aazztech.com"
+msgstr "https://aazztech.com"
+
+#. Author of the plugin/theme
+msgid "AazzTech"
+msgstr "AazzTech"
+
+#. Description of the plugin/theme
+msgid "Create a professional directory listing website like Yelp by a few clicks only. You can list place, any business etc.  with this plugin very easily."
+msgstr "Cree con Yelp un sitio web profesional con listas de directorios a tan solo unos clics. Liste un lugar, negocio etc, fácilmente con este plugin."
+
+#. Plugin URI of the plugin/theme
+msgid "https://aazztech.com/product/directorist-business-directory-plugin"
+msgstr "https://aazztech.com/product/directorist-business-directory-plugin"
+
+#. Plugin Name of the plugin/theme
+msgid "Directorist - Business Directory Plugin"
+msgstr "Directorist - Plugin para Directorio empresarial"
+
+#: templates/single-at_biz_dir.php:248
+msgid "Submit Your Item"
+msgstr "Enviar Elemento "
+
+#: templates/single-at_biz_dir.php:182
+msgid "Social Link"
+msgstr "Enlaces Sociales"
+
+#: templates/single-at_biz_dir.php:168
+msgid "Phone"
+msgstr "Teléfono"
+
+#: templates/single-at_biz_dir.php:158
+msgid "Contact Information"
+msgstr "Información de contacto"
+
+#: templates/single-at_biz_dir.php:115
+msgid "Share this post"
+msgstr "Compartir publicación  "
+
+#: templates/single-at_biz_dir.php:41
+msgid "View On Google Maps"
+msgstr "Ver en Google Maps"
+
+#: templates/front-end/all-listing.php:130 templates/search-at_biz_dir.php:134
+msgid "No listing found."
+msgstr "No se encontró ningún listado."
+
+#: directorist-base.php:576 templates/front-end/all-listing.php:120
+#: templates/search-at_biz_dir.php:124
+msgid "Read More"
+msgstr "Leer más"
+
+#: templates/front-end/add-listing.php:148
+#: templates/front-end/all-listing.php:112 templates/search-at_biz_dir.php:116
+msgid "Location:"
+msgstr "Ubicación:"
+
+#: directorist-base.php:430 directorist-base.php:562
+#: templates/front-end/all-listing.php:107 templates/search-at_biz_dir.php:110
+msgid "Others"
+msgstr "Otros"
+
+#: templates/front-end/add-listing.php:126
+#: templates/front-end/all-listing.php:98 templates/search-at_biz_dir.php:101
+msgid "Category:"
+msgstr "Categoría:"
+
+#: templates/search-at_biz_dir.php:39
+msgid "Total Listing Found: "
+msgstr "Listado total encontrado:"
+
+#: templates/search-at_biz_dir.php:31
+msgid "Search Result for: \"%s\" from All categories and locations"
+msgstr "Resultados de la búsqueda de: \"%s\" de Todas las categorías y ubicaciones"
+
+#: templates/search-at_biz_dir.php:33
+msgid "Showing Result from all categories and locations."
+msgstr "Mostrando el resultado de todas las categorías y ubicaciones."
+
+#: templates/media-upload.php:40
+msgid "Remove Image"
+msgstr "Quita la imagen"
+
+#: templates/listing-home.php:95
+msgid "Or"
+msgstr "O"
+
+#: templates/front-end/user-registration-form.php:69
+msgid "Sign Up"
+msgstr "Regístrate"
+
+#: templates/front-end/user-registration-form.php:63
+msgid "About/bio"
+msgstr "Acerca de / biografía"
+
+#: templates/front-end/user-registration-form.php:42
+#: templates/single-at_biz_dir.php:172
+msgid "Email"
+msgstr "Correo Electrónico"
+
+#: templates/front-end/user-registration-form.php:37
+msgid "Password"
+msgstr "Contraseña"
+
+#: templates/front-end/user-registration-form.php:32
+msgid "Username"
+msgstr "Nombre de Usuario"
+
+#: templates/front-end/user-registration-form.php:18
+msgid "Registration failed. Please make sure you filed up all the necessary fields."
+msgstr "Registro fallido. Por favor, asegúrese de llenar todos los campos necesarios."
+
+#: templates/front-end/user-registration-form.php:11
+msgid "Registration completed. Please check your inbox and activate your account."
+msgstr "Registro completo. Por favor revise su bandeja de entrada y active su cuenta."
+
+#: directorist-base.php:752 templates/front-end/user-registration-form.php:8
+msgid "Register"
+msgstr "Registro"
+
+#: includes/libs/vafpress/views/option/set.php:69
+#: includes/libs/vafpress/views/option/set.php:84
+#: templates/front-end/user-dashboard.php:190
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+#: templates/front-end/user-dashboard.php:186
+msgid "Confirm Password"
+msgstr "Confirmar Contraseña"
+
+#: templates/front-end/user-dashboard.php:182
+msgid "New Password"
+msgstr "Nueva Contraseña"
+
+#: templates/front-end/user-dashboard.php:176
+msgid "Current Password"
+msgstr "Contraseña Actual"
+
+#: templates/front-end/user-dashboard.php:169
+#: templates/single-at_biz_dir.php:163
+msgid "Address"
+msgstr "Dirección"
+
+#: templates/front-end/user-dashboard.php:165
+#: templates/front-end/user-registration-form.php:47
+#: templates/single-at_biz_dir.php:176
+msgid "Website"
+msgstr "Sitio Web"
+
+#: templates/front-end/user-dashboard.php:158
+msgid "Cell Number"
+msgstr "Número de celular"
+
+#: templates/front-end/user-dashboard.php:154
+msgid "Email (required)"
+msgstr "Correo Electrónico (Requerido)"
+
+#: templates/front-end/user-dashboard.php:147
+#: templates/front-end/user-registration-form.php:57
+msgid "Last Name"
+msgstr "Apellido"
+
+#: templates/front-end/user-dashboard.php:143
+#: templates/front-end/user-registration-form.php:52
+msgid "First Name"
+msgstr "Nombre"
+
+#: templates/front-end/user-dashboard.php:137
+msgid "(username can not be changed)"
+msgstr "(nombre de usuario no puede ser modificado)"
+
+#: templates/front-end/user-dashboard.php:116
+msgid "Change"
+msgstr "Modificar"
+
+#: templates/front-end/user-dashboard.php:88
+msgid "Delete"
+msgstr "Eliminar"
+
+#: templates/front-end/user-dashboard.php:87
+msgid "Edit Listing"
+msgstr "Editar listado"
+
+#: templates/front-end/user-dashboard.php:41
+msgid "Log Out"
+msgstr "Salir"
+
+#: templates/front-end/user-dashboard.php:40
+#: templates/single-at_biz_dir.php:254
+msgid "Submit New Listing"
+msgstr "Enviar Nuevo Listado "
+
+#: templates/front-end/user-dashboard.php:36
+#: templates/front-end/user-dashboard.php:124
+msgid "My Profile"
+msgstr "Mi Perfil"
+
+#: templates/front-end/user-dashboard.php:33
+msgid "My Listing (%s)"
+msgstr "Mi Listado (%s)"
+
+#: templates/front-end/user-dashboard.php:23
+msgid "My Dashboard"
+msgstr "Mi Escritorio"
+
+#: templates/front-end/add-listing.php:311
+msgid "Submit listing"
+msgstr "Enviar listado"
+
+#: templates/front-end/add-listing.php:175
+msgid "Current Tags:"
+msgstr "Etiquetas actuales:"
+
+#: templates/front-end/add-listing.php:154
+msgid "Current Location:"
+msgstr "Ubicación actual:"
+
+#: templates/front-end/add-listing.php:137
+msgid "Select a Category"
+msgstr "Seleccionar una Categoría"
+
+#: templates/front-end/add-listing.php:134
+msgid "Current category:"
+msgstr "Categoría actual:"
+
+#: templates/add-listing.php:60 templates/front-end/add-listing.php:193
+msgid "Listing address eg. Houghton Street London WC2A 2AE UK"
+msgstr "Dirección de listado, Ej. Houghton Street Londres WC2A 2AE Reino Unido"
+
+#: templates/add-listing.php:44 templates/front-end/add-listing.php:111
+msgid "Short Description or Excerpt"
+msgstr "Descripción corta o Extracto"
+
+#: templates/front-end/add-listing.php:79
+msgid "Enter a title"
+msgstr "Ingrese un titulo"
+
+#: directorist-base.php:329 templates/front-end/add-listing.php:52
+msgid "Add Listing"
+msgstr "Agregar Listado"
+
+#: templates/front-end/add-listing.php:52
+#: templates/front-end/add-listing.php:311
+msgid "Update Listing"
+msgstr "Actualizar Listado"
+
+#: templates/front-end/add-listing.php:7
+msgid "You do not have permission to edit this listing"
+msgstr "Usted no tiene permiso para editar este listado"
+
+#: templates/add-listing.php:148 templates/front-end/add-listing.php:287
+msgid "Delete Marker"
+msgstr "Eliminar Marcador"
+
+#: templates/add-listing.php:136 templates/front-end/add-listing.php:273
+msgid "Generate on Map"
+msgstr "Generar en el mapa"
+
+#: templates/add-listing.php:130 templates/front-end/add-listing.php:266
+msgid "Longitude"
+msgstr "Longitud"
+
+#: templates/add-listing.php:124 templates/front-end/add-listing.php:259
+msgid "Latitude"
+msgstr "Latitud"
+
+#: templates/add-listing.php:116 templates/front-end/add-listing.php:252
+msgid "Enter Coordinates ( latitude and longitude) Manually ? or set the marker on the map anywhere by clicking on the map"
+msgstr "Introducir las coordenadas (latitud y longitud) manualmente? o establezca el marcador en cualquier lugar en el mapa haciendo clic sobre el mapa"
+
+#: templates/add-listing.php:7 templates/single-at_biz_dir.php:33
+msgid "No Title"
+msgstr "Sin Titulo"
+
+#: includes/libs/vafpress/views/control/upload.php:5
+msgid "Choose File"
+msgstr "Seleccionar Archivo"
+
+#: includes/classes/class-user.php:168
+msgid "Website is not a valid URL"
+msgstr "El sitio web no tiene una URL válida"
+
+#: includes/classes/class-user.php:162
+msgid "Last Name must be letters or combination of letters and number"
+msgstr "El apellido puede contener letras o combinación de letras y números"
+
+#: includes/classes/class-user.php:157
+msgid "First Name must be letters or combination of letters and number"
+msgstr "El Nombre puede contener letras o combinación de letras y números"
+
+#: includes/classes/class-user.php:153
+msgid "Email Already in use"
+msgstr "Correo Electrónico ya está en uso"
+
+#: includes/classes/class-user.php:150
+msgid "Email is not valid"
+msgstr "Correo Electrónico incorrecto "
+
+#: includes/classes/class-user.php:146
+msgid "Password length must be greater than 5"
+msgstr "La longitud de la contraseña debe ser mayor que 5 dígitos"
+
+#: includes/classes/class-user.php:142
+msgid "Sorry, the username you entered is not valid"
+msgstr "Lo sentimos, el nombre de usuario que ingresó no es válido"
+
+#: includes/classes/class-user.php:138
+msgid "Sorry, that username already exists!"
+msgstr "Lo sentimos, ¡El nombre de usuario ya existe!"
+
+#: includes/classes/class-user.php:134
+msgid "Username too short. At least 4 characters is required"
+msgstr "El Nombre de usuario es demasiado corto. Se requiere al menos 4 caracteres"
+
+#: includes/classes/class-user.php:130
+msgid "Required form field is missing. Please fill all required fields."
+msgstr "Falta un campo obligatorio en el formulario. Por favor complete todos los campos requeridos."
+
+#: includes/classes/class-shortcode.php:170
+msgid "Registration page is only for unregistered user. <a href=\"%s\">Go Back To Home</a>"
+msgstr "La página de registro es solo para usuarios no registrados. <a href=\"%s\">Volver a la página de inicio</a>"
+
+#: includes/classes/class-shortcode.php:109
+#: includes/classes/class-shortcode.php:144
+msgid "Here"
+msgstr "Aquí"
+
+#: includes/classes/class-shortcode.php:109
+#: includes/classes/class-shortcode.php:144
+msgid "You need to be logged in to view the content of this page. You can login %s."
+msgstr "Necesitas iniciar sesión para poder visualizar el contenido de esta página. Usted puede acceder %s."
+
+#: includes/classes/class-settings-manager.php:527
+msgid "Add Listing Search page ID"
+msgstr "Agregar ID de página de búsqueda de listados"
+
+#: includes/classes/class-settings-manager.php:516
+msgid "Add registration page ID"
+msgstr "Agregar ID de página de registro"
+
+#: includes/classes/class-settings-manager.php:505
+msgid "Add dashboard page ID"
+msgstr "Agregar ID de página del Escritorio"
+
+#: includes/classes/class-settings-manager.php:483
+msgid "Add Listing Page ID"
+msgstr "Agregar ID de página de listado"
+
+#: includes/classes/class-settings-manager.php:225
+msgid "If you use a theme that uses Bootstrap Framework especially Bootstrap JS, then Check this setting to fix any conflict with theme bootstrap js."
+msgstr "Si estás usando temas con Bootstrap Framework, especialmente Bootstrap JS, a continuación, verifique si la configuración puede solucionar cualquier conflicto con referente a los temas que usen bootstrap js."
+
+#: includes/classes/class-settings-manager.php:224
+msgid "Fix Conflict with Bootstrap JS"
+msgstr "Corrección de conflicto con Bootstrap JS"
+
+#: includes/classes/class-settings-manager.php:357
+msgid "Enter how many listings you would like to show on your listing search result page. Eg. 6. Default is 6"
+msgstr "Ingrese cuántas listas desea mostrar en la página de resultados de búsqueda de su lista. Ej. 6. El valor por defecto es 6"
+
+#: includes/classes/class-settings-manager.php:419
+msgid "Set how many popular categories you would like to show on your listing main search page. Eg. 10. Default is 10"
+msgstr "Establesca cuántas categorías populares le gustaría mostrar en su página de búsqueda de listas. Ej. 10. El valor predeterminado es 10"
+
+#: includes/classes/class-settings-manager.php:418
+msgid "Number of Popular Category"
+msgstr "Número de Categorías Populares"
+
+#: includes/classes/class-settings-manager.php:412
+#: templates/listing-home.php:13
+msgid "Browse by popular categories"
+msgstr "Buscar por categorías populares"
+
+#: includes/classes/class-settings-manager.php:411
+msgid "Enter the title for popular category on listing search page eg. Browse by popular categories"
+msgstr "Ingrese el título de la categoría popular en la página de búsqueda de listas; Ej. Buscar por categorías populares "
+
+#: includes/classes/class-settings-manager.php:410
+msgid "Popular Category Title"
+msgstr "Título de categoría popular"
+
+#: templates/listing-home.php:9
+msgid "What are you looking for?"
+msgstr "¿Qué estás buscando?"
+
+#: includes/classes/class-settings-manager.php:343
+msgid "Enter the placeholder text for the search field. Eg. What are you looking for?"
+msgstr "Ingrese un marcador de posición en texto en el campo de búsqueda. Ej. ¿Qué es lo que estás buscando?"
+
+#: includes/classes/class-settings-manager.php:342
+msgid "Search Bar Placeholder"
+msgstr "Barra de búsqueda para Marcador de posición "
+
+#: includes/classes/class-settings-manager.php:336
+msgid "Enter the sub-title for search bar on Home Page. Eg. All the top locations – from restaurants and clubs, to cinemas, galleries, and more.."
+msgstr "Ingrese el subtitulo para la barra de búsqueda en la Página de inicio. Ej. Todos los mejores lugares: desde restaurantes y clubes, hasta cines, galerías y más."
+
+#: includes/classes/class-settings-manager.php:335
+msgid "Search Bar Sub-title"
+msgstr "Subtítulo de la barra de búsqueda"
+
+#: includes/classes/class-settings-manager.php:328
+msgid "Enter the title for search bar on Home Page. Eg. Find the Best Places to Be"
+msgstr "Ingrese el título para la barra de búsqueda en la Página de inicio. Ej. Encuentra los mejores lugares para estar"
+
+#: includes/classes/class-settings-manager.php:327
+msgid "Search Bar Title"
+msgstr "Título de la barra de búsqueda"
+
+#: includes/classes/class-settings-manager.php:203
+msgid "Google Map API key"
+msgstr "Clave API del Google Map"
+
+#: includes/classes/class-settings-manager.php:155
+msgid "General Settings"
+msgstr "Configuración general"
+
+#: includes/classes/class-settings-manager.php:30
+msgid "Directory Settings"
+msgstr "Configuración del directorio"
+
+#: includes/classes/class-metabox.php:41
+msgid "Upload Image for the listing"
+msgstr "Subir imagen para el listado"
+
+#: includes/classes/class-metabox.php:35
+msgid "Listing Information"
+msgstr "Información de listado"
+
+#: includes/classes/class-helper.php:168
+msgid "Next &raquo;"
+msgstr "Siguiente &raquo;"
+
+#: includes/classes/class-helper.php:167
+msgid "&laquo; Prev"
+msgstr "&laquo; Anterior"
+
+#: includes/classes/class-helper.php:84
+msgid "StackOverFLow"
+msgstr "StackOverFLow"
+
+#: includes/classes/class-helper.php:83
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: includes/classes/class-helper.php:82
+msgid "Behance"
+msgstr "Behance"
+
+#: includes/classes/class-helper.php:81
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: includes/classes/class-helper.php:80
+msgid "Github"
+msgstr "Github"
+
+#: includes/classes/class-helper.php:79
+msgid "Vine"
+msgstr "Vine"
+
+#: includes/classes/class-helper.php:78
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: includes/classes/class-helper.php:77
+msgid "Youtube"
+msgstr "Youtube"
+
+#: includes/classes/class-helper.php:76
+msgid "Reddit"
+msgstr "Reddit"
+
+#: includes/classes/class-helper.php:75
+msgid "Snapchat"
+msgstr "Snapchat"
+
+#: includes/classes/class-helper.php:74
+msgid "Flickr"
+msgstr "Flickr"
+
+#: includes/classes/class-helper.php:73
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: includes/classes/class-helper.php:72
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/classes/class-helper.php:71
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/classes/class-helper.php:70
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: includes/classes/class-helper.php:69
+msgid "Google+"
+msgstr "Google+"
+
+#: includes/classes/class-helper.php:68
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/classes/class-helper.php:67
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/classes/class-helper.php:31
+msgid "%s requires minimum PHP 5.4 to function properly. Please upgrade PHP version. The Plugin has been auto-deactivated.. You have PHP version %d"
+msgstr "%s para funcionar de forma correcta se requiere como mínimo la versión PHP 5.4 . Por favor, actualice la versión de su PHP. El plugin ha sido auto-desactivado. Usted posee la versión PHP %d"
+
+#: includes/classes/class-extension.php:36
+msgid "<span style=\"color: #ffc733;\">Extensions</span>"
+msgstr "<span style=\"color: #ffc733;\">Extensiones</span>"
+
+#: includes/classes/class-extension.php:35
+msgid "Get Extensions"
+msgstr "Obtener extensiones"
+
+#: includes/classes/class-custom-taxonomy.php:310
+msgid "No Category"
+msgstr "Ninguna Categoría"
+
+#: includes/classes/class-custom-taxonomy.php:250
+msgid "Icon Name"
+msgstr "Nombre del Icono"
+
+#: includes/classes/class-custom-taxonomy.php:248
+msgid "Icon"
+msgstr "Icono"
+
+#: includes/classes/class-custom-taxonomy.php:65
+#: includes/classes/class-custom-taxonomy.php:246
+msgid "ID"
+msgstr "ID"
+
+#: includes/classes/class-custom-taxonomy.php:216
+msgid "Directory Tags"
+msgstr "Etiquetas del directorio"
+
+#: includes/classes/class-custom-taxonomy.php:215
+msgid "New tag Name"
+msgstr "Nuevo Nombre de etiqueta"
+
+#: includes/classes/class-custom-taxonomy.php:214
+msgid "Add New tag"
+msgstr "Agregar nueva etiqueta"
+
+#: includes/classes/class-custom-taxonomy.php:213
+msgid "Update tag"
+msgstr "Actualizar etiqueta"
+
+#: includes/classes/class-custom-taxonomy.php:212
+msgid "Edit tag"
+msgstr "Editar etiqueta"
+
+#: includes/classes/class-custom-taxonomy.php:211
+msgid "Parent tag:"
+msgstr "Etiqueta principal:"
+
+#: includes/classes/class-custom-taxonomy.php:210
+msgid "Parent tag"
+msgstr "Etiqueta principal"
+
+#: includes/classes/class-custom-taxonomy.php:209
+msgid "All Tags"
+msgstr "Todas las etiquetas"
+
+#: includes/classes/class-custom-taxonomy.php:208
+msgid "Search tag"
+msgstr "Etiqueta de búsqueda"
+
+#: includes/classes/class-custom-taxonomy.php:181
+msgid "Directory Categories"
+msgstr "Categorías del directorio"
+
+#: includes/classes/class-custom-taxonomy.php:180
+msgid "New category Name"
+msgstr "Nuevo nombre de Categoría"
+
+#: includes/classes/class-custom-taxonomy.php:179
+msgid "Add New category"
+msgstr "Añadir Nueva Categoría"
+
+#: includes/classes/class-custom-taxonomy.php:178
+msgid "Update category"
+msgstr "Actualizar categoría"
+
+#: includes/classes/class-custom-taxonomy.php:177
+msgid "Edit category"
+msgstr "Editar Categoría"
+
+#: includes/classes/class-custom-taxonomy.php:176
+msgid "Parent category:"
+msgstr "Categoría Principal"
+
+#: includes/classes/class-custom-taxonomy.php:175
+msgid "Parent category"
+msgstr "Categoría Principal"
+
+#: includes/classes/class-custom-taxonomy.php:174
+msgid "All categories"
+msgstr "Todas las categorías"
+
+#: includes/classes/class-custom-taxonomy.php:173
+msgid "Search category"
+msgstr "Buscar categoría"
+
+#: includes/classes/class-custom-taxonomy.php:172
+msgctxt "Category singular name"
+msgid "Directory category"
+msgstr "Categoría de directorio"
+
+#: includes/classes/class-custom-taxonomy.php:171
+msgctxt "Category general name"
+msgid "Directory categories"
+msgstr "Categorías de directorio"
+
+#: includes/classes/class-custom-taxonomy.php:144
+msgid "Directory Locations"
+msgstr "Directorio de Localizaciones"
+
+#: includes/classes/class-custom-taxonomy.php:143
+msgid "New Location Name"
+msgstr "Nuevo nombre de Localización"
+
+#: includes/classes/class-custom-taxonomy.php:142
+msgid "Add New Location"
+msgstr "Añadir nueva Localización"
+
+#: includes/classes/class-custom-taxonomy.php:141
+msgid "Update Location"
+msgstr "Actualizar Localización"
+
+#: includes/classes/class-custom-taxonomy.php:140
+msgid "Edit Location"
+msgstr "Editar Localización"
+
+#: includes/classes/class-custom-taxonomy.php:139
+msgid "Parent Location:"
+msgstr "Localización Principal:"
+
+#: includes/classes/class-custom-taxonomy.php:138
+msgid "Parent Location"
+msgstr "Localización Principal"
+
+#: includes/classes/class-custom-taxonomy.php:137
+msgid "All Locations"
+msgstr "Todas las Localizaciones"
+
+#: includes/classes/class-custom-taxonomy.php:136
+msgid "Search Location"
+msgstr "Encontrar Localización"
+
+#: includes/classes/class-custom-taxonomy.php:135
+msgctxt "Location singular name"
+msgid "Directory Location"
+msgstr "Directorio de Localización"
+
+#: includes/classes/class-custom-taxonomy.php:134
+msgctxt "Location general name"
+msgid "Directory Locations"
+msgstr "Directorio de Localizaciones"
+
+#: includes/classes/class-custom-taxonomy.php:93
+#: includes/classes/class-custom-taxonomy.php:118
+msgid "Category Icon"
+msgstr "Icono de la categoría"
+
+#: includes/classes/class-custom-post.php:115
+msgid "Created at"
+msgstr "Creado en"
+
+#: includes/classes/class-custom-post.php:114
+msgid "Author"
+msgstr "Autor"
+
+#: includes/classes/class-custom-post.php:113
+msgid "Categories"
+msgstr "Categorías"
+
+#: includes/classes/class-custom-post.php:112
+msgid "Location"
+msgstr "Localización"
+
+#: includes/classes/class-custom-post.php:111
+msgid "Listing Name"
+msgstr "Nombre del listado"
+
+#: includes/classes/class-custom-post.php:68
+msgid "Directory Listing"
+msgstr "Listado del Directorio"
+
+#: includes/classes/class-custom-post.php:64
+msgid "Not listings found in Trash"
+msgstr "No se encontraron listados en la Papelera"
+
+#: includes/classes/class-custom-post.php:63
+msgid "No listings found"
+msgstr "No se encontraron listados"
+
+#: includes/classes/class-custom-post.php:62
+msgid "Search listing"
+msgstr "Listado de búsqueda"
+
+#: includes/classes/class-custom-post.php:61
+msgid "View listing"
+msgstr "Ver listado"
+
+#: includes/classes/class-custom-post.php:60
+msgid "Update listing"
+msgstr "Actualizar listado"
+
+#: includes/classes/class-custom-post.php:59
+msgid "Edit listing"
+msgstr "Editar lista"
+
+#: includes/classes/class-custom-post.php:58
+msgid "New listing"
+msgstr "Nuevo listado"
+
+#: includes/classes/class-custom-post.php:56
+#: includes/classes/class-custom-post.php:57
+msgid "Add New listing"
+msgstr "Añadir Nuevo listado"
+
+#: includes/classes/class-custom-post.php:55
+msgid "All listings"
+msgstr "Todos los listados"
+
+#: includes/classes/class-custom-post.php:54
+msgid "Parent Directory listing:"
+msgstr "Listado de directorio principal:"
+
+#: includes/classes/class-custom-post.php:53
+msgid "Directory listing"
+msgstr "Listado de directorio"
+
+#: includes/classes/class-custom-post.php:52
+#: includes/classes/class-custom-post.php:69
+msgid "Directory listings"
+msgstr "Listas de directorio"
+
+#: includes/classes/class-custom-post.php:51
+msgctxt "Singular Name of Directory listing"
+msgid "Directory listing"
+msgstr "Listado de directorio"
+
+#: includes/classes/class-custom-post.php:50
+msgctxt "Plural Name of Directory listing"
+msgid "Directory listings"
+msgstr "Listas de directorio"
+
+#: includes/classes/class-ajax-handler.php:69
+msgid "Ops! something went wrong. Try again."
+msgstr "Ups! algo salió mal. Inténtalo de nuevo."
+
+#: includes/classes/class-ajax-handler.php:67
+msgid "Profile updated successfully"
+msgstr "Perfil actualizado con éxito"
+
+#: includes/classes/class-add-listing.php:113
+msgctxt "tag delimiter"
+msgid ","
+msgstr ","
+
+#: directorist-base.php:243
+msgid "Add widgets for the right sidebar on single listing page"
+msgstr "Añada widgets en la barra lateral derecha sobre una página individual de listados."
+
+#: directorist-base.php:241
+msgid "Listing Right Sidebar"
+msgstr "Listado de la barra lateral derecha"
+
+#: directorist-base.php:215 directorist-base.php:227
+msgid "Cheatin&#8217; huh?"
+msgstr "Tramposo&#8217; ah?"
+
+#: config.php:39
+msgid "You do not have the right to access this file directly"
+msgstr "Usted no posee los privilegios para acceder a este archivo de forma directa"

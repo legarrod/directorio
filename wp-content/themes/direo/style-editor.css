@@ -1,0 +1,241 @@
+body {
+    font-family: "Muli", sans-serif;
+}
+
+/* Main text column width */
+.wp-block {
+    max-width: 1140px;
+}
+
+/* Width of "wide" blocks - matches content wrapper width */
+.wp-block[data-align="wide"] {
+    max-width: 1110px;
+}
+
+/* Width of "full-wide" blocks - you need some CSS wizardry to get these blocks to extend outside the wrapper */
+.wp-block[data-align="full"] {
+    max-width: none;
+}
+
+.wp-block .has-large-font-size{
+    line-height: normal;
+}
+
+/* Text block paragraph font size */
+.wp-block p {
+    font-size: 15px;
+    line-height: 27px;
+    color: #7a82a6;
+}
+
+.wp-block-cover-image .wp-block-subhead, .wp-block-cover-image h1, .wp-block-cover-image h2, .wp-block-cover-image h3, .wp-block-cover-image h4, .wp-block-cover-image h5, .wp-block-cover-image h6, .wp-block-cover-image p, .wp-block-cover .wp-block-subhead, .wp-block-cover h1, .wp-block-cover h2, .wp-block-cover h3, .wp-block-cover h4, .wp-block-cover h5, .wp-block-cover h6, .wp-block-cover p, .wp-block-quote__citation {
+    color: #fff;
+}
+blockquote.wp-block-quote.is-style-large {
+    padding: 2.5rem 3.33333rem;
+    margin: 20px 0;
+}
+.wp-block-quote.is-large p, .wp-block-quote.is-style-large p {
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.6;
+}
+blockquote.wp-block-quote {
+    background: -webkit-gradient(linear, left top, right top, from(#f5548e), to(#903af9));
+}
+.editor-post-title__block .editor-post-title__input{
+    font-family: "Muli", sans-serif;
+}
+a{
+    color: #7a82a6;
+}
+h1{
+    font-size: 30px;
+    line-height: 36px;
+}
+h2{
+    font-size: 24px;
+    line-height: 29px;
+}
+
+h3{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+h4{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+h5{
+    font-size: 16px;
+    line-height: 19px;
+}
+
+h6{
+    font-size: 15px;
+    line-height: 18px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
+
+.wp-block-separator{
+    border-color: #e9ebf4;
+}
+.wp-block-quote.is-large p, .wp-block-quote.is-style-large p, blockquote.wp-block-quote p{
+    margin-bottom: 0;
+    color: #fff;
+}
+.wp-block-quote{
+    border-left: 0;
+    margin: 45px 0 50px;
+}
+.wp-block-quote p{
+    line-height: 36px;
+}
+.wp-block-quote__citation{
+    color: rgba(245, 247, 252, 0.7);
+    margin-top: 1.66rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    position: relative;
+    display: inline-block;
+    padding-left: 3.66667rem;
+}
+.wp-block-quote__citation:before {
+    position: absolute;
+    content: "";
+    width: 2.66667rem;
+    height: 2px;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #f5f7fc;
+}
+
+blockquote.wp-block-quote{
+    padding: 2.5rem 3.33333rem;
+}
+blockquote.wp-block-quote p{
+    font-size: 20px;
+}
+.wp-block ul li, .wp-block ol li{
+    color: #7a82a6;
+    font-size: 15px;
+    line-height: 23px;
+}
+.wp-block-table td, .wp-block-table th{
+    border-color: #e3e6ef;
+    color: #7a82a6;
+}
+.wp-block-separator{
+    margin: 70px 0;
+}
+a{
+    text-decoration: none;
+}
+
+.wc-product-preview .wc-product-preview__price, .wc-product-preview .wc-product-preview__rating, .wc-product-preview .wc-product-preview__title{
+    text-align: left;
+}
+.wc-product-preview .wc-product-preview__title{
+    padding: .5em 0;
+    margin: 0;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #272b41;
+}
+.wc-product-preview .wc-product-preview__price{
+    font-weight: 700;
+    margin-top: 0;
+    line-height: normal;
+    font-size: 13px;
+}
+.wc-product-preview .wc-product-preview__price span.amount{
+    color: #f5548e;
+}
+.wc-product-preview .wc-product-preview__price del{
+    margin-right: 5px;
+    color: #9299b8;
+    opacity: .5;
+    display: inline-block;
+}
+.wc-product-preview .wc-product-preview__price del span.amount{
+    color: #9299b8;
+}
+
+.wc-product-preview .wc-product-preview__price ins{
+    background: 0 0;
+    font-weight: 700;
+    display: inline-block;
+    color: #f5548e;
+}
+.wc-product-preview .wc-product-preview__price del,
+.wc-product-preview .wc-product-preview__price ins{
+    font-size: 13px;
+    line-height: 19px;
+}
+.wc-product-preview .wc-product-preview__add-to-cart{
+    background: none;
+    border: 1px solid #e3e6ef;
+    text-align: center;
+    font-size: 13px;
+    padding: 12px 15px;
+    margin-top: 7px;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    overflow: visible;
+    font-weight: 700;
+    border-radius: 3px;
+    left: auto;
+    color: #515151;
+    display: inline-block;
+    box-shadow: none;
+    text-shadow: none;
+}
+.wc-product-preview{
+    text-align: left;
+}
+.wc-product-preview .star-rating{
+    text-align: left;
+    margin:0;
+}
+.wc-product-preview .star-rating:before,
+.wc-product-preview .star-rating span{
+    font-size: 13px;
+}
+.wc-product-preview .star-rating span{
+    color: #f2b01e;
+}
+.wc-block-featured-product .wc-block-featured-product__description p{
+    color: #fff;
+}
+.editor-post-title__block .editor-post-title__input{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.has-huge-font-size, .has-larger-font-size{
+    line-height: normal !important;
+}
+
+.wp-block-pullquote blockquote .wp-block-pullquote__citation{
+    color: #7a82a6;
+}
+
+.wp-block-pullquote blockquote.has-text-color p,
+.wp-block-pullquote blockquote.has-text-color .wp-block-pullquote__citation{
+    color: inherit;
+}
+
+.block-editor-block-list__layout>.block-editor-block-list__block>.block-editor-block-list__block-edit{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

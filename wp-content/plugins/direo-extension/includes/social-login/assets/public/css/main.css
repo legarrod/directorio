@@ -1,0 +1,55 @@
+#directorist.atbd_wrapper .atbdp-accordion .accordion-single{
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 10px;
+}
+#directorist.atbd_wrapper .atbdp-accordion .accordion-single:last-child{
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+#directorist.atbd_wrapper .atbdp-accordion .accordion-single h3{
+    margin: 0;
+    line-height: 16px;
+    padding-bottom: 17px;
+}
+#directorist.atbd_wrapper .atbdp-accordion .accordion-single h3 a {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+}
+#directorist.atbd_wrapper .atbdp-accordion .accordion-single h3 a:before{
+     position: absolute !important;
+     content: '\f2c2';
+     font-family: "LineAwesome";
+     transition: 0.3s ease;
+     margin-right: 6px;
+     font-size: 14px;
+     left: 0;
+     top: 0;
+}
+
+#directorist.atbd_wrapper .atbdp-accordion .accordion-single h3 a.active:before{
+     content: '\f28e';
+}
+#directorist.atbd_wrapper .atbdp-accordion .accordion-single:last-child h3{
+    padding-bottom: 10px;
+}
+#directorist.atbd_wrapper .atbdp-accordion .accordion-single h3 a:focus{
+    outline: 0;
+    border: 0;
+}
+#directorist.atbd_wrapper .atbdp-accordion .accordion-single .ac-body{
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+
+.azbdp-fb-loading,
+.azbdp-gg-loading {
+    display: none;
+    margin-right: 5px;
+}
+
+.azbdp-fb-loading.azbdp--show,
+.azbdp-gg-loading.azbdp--show {
+    display: inline;
+}

@@ -1,0 +1,270 @@
+/* Categories with image  */
+.atbd_content_active #directorist.atbd_wrapper .atbd_category_single{
+  position: relative;
+  padding: 0;
+  border-radius: 3px;
+  overflow: hidden;
+  min-height: auto !important;
+  border: 0 none !important;
+  img{
+    width: 100%;
+    height:auto;
+  }
+  figure{
+    position: relative;
+    background: rgba(23,27,46,.6);
+    transition: .3s ease;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 0;
+    figcaption{
+      min-height: auto !important;
+      &:before{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: -webkit-linear-gradient(45deg,rgba(245,84,142,.85),rgba(144,58,249,.85));
+        background: -o-linear-gradient(45deg,rgba(245,84,142,.85),rgba(144,58,249,.85));
+        background: linear-gradient(45deg,rgba(245,84,142,.85),rgba(144,58,249,.85));
+        z-index: -1;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+    p{
+      color: #fff;
+      font-weight: 500;
+      font-size: 18px;
+      margin-top: 13px;
+      position: relative;
+      z-index: 2;
+    }
+    .cat-box{
+      position: relative;
+      z-index: 1;
+      .icon span{
+        font-size: remy(36px);
+      }
+      .cat-info{
+        display: block;
+        h4{
+          display: block;
+        }
+        .badge{
+          font-size: remy(12px);
+          line-height: remy(24px);
+          margin-top: 15px;
+          display: inline-block;
+          color: #fff;
+        }
+      }
+    }
+  }
+  &:hover{
+    figure{
+      background: none;
+      figcaption{
+        &:before{
+          opacity: 1;
+          visibility: visible;
+          z-index: 1;
+        }
+      }
+    }
+  }
+  &.atbd_category-default figure figcaption{
+    padding: 30px 0;
+  }
+}
+
+.cat-places-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.atbd_content_active #directorist.atbd_wrapper .atbd_location_grid_wrap {
+  margin-left: 5px;
+  margin-right: 5px;
+  div[class^="col"]{
+    margin: 0;
+    padding: 0 15px;
+  }
+  .atbd_location_grid{
+    margin-bottom: 30px !important;
+    figure{
+      margin:0;
+      position: relative;
+      border-radius: 3px;
+      overflow: hidden;
+      display: block;
+      img{
+        width: 100%;
+      }
+      &:hover{
+        figcaption{
+          &:before{
+            visibility: visible;
+            opacity: 1;
+          }
+        }
+      }
+      figcaption{
+        position: absolute;
+        left:0;
+        top: 0;
+        width:100%;
+        height: 100%;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 25px 30px 30px;
+        background: rgba(23,27,46,.3);
+        &:before{
+          position: absolute;
+          content: '';
+          width: 100%;
+          height: 100%;
+          left: 0;
+          top:0;
+          background: -moz-linear-gradient( 45deg, rgba(245,84,142,0.9) 0%, rgba(144,58,249,0.9) 100%);
+          background: -webkit-linear-gradient( 45deg, rgba(245,84,142,0.9) 0%, rgba(144,58,249,0.9) 100%);
+          background: -ms-linear-gradient( 45deg, rgba(245,84,142,0.9) 0%, rgba(144,58,249,0.9) 100%);
+          visibility: hidden;
+          opacity: 0;
+          transition: .3s ease;
+          z-index: -1;
+        }
+        h3{
+          color: #fff;
+          margin:0;
+          line-height: normal;
+          font-size: 20px;
+          font-weight: 700;
+        }
+        p{
+          margin: 7px 0 0;
+          color: #fff;
+          font-size: 15px;
+          line-height: normal;
+        }
+      }
+    }
+  }
+  .col-md-2{
+    .atbd_location_grid{
+      height: 100px;
+      img{
+        width: 100%;
+      }
+      h3, p{
+        font-size: 14px;
+      }
+    }
+  }
+  .col-md-3{
+    .atbd_location_grid{
+      height: 150px;
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .col-md-4{
+    .atbd_location_grid{
+      height: 200px;
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .col-md-6{
+    .atbd_location_grid{
+      height: 270px;
+      min-height: 270px;
+      max-height: 270px;
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .col-md-12{
+    .atbd_location_grid{
+      height: 500px;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+
+#category-style-two #directorist.atbd_wrapper{
+  .atbd_all_categories{
+    .atbd_category_single{
+      border: 1px solid $border-color !important;
+      border-radius: 5px;
+      box-shadow: 0 10px 10px rgba($light-gray, 0.05);
+      padding: 30px;
+      figure{
+        background: none;
+        img{
+          display: none;
+        }
+        figcaption{
+          position: static;
+          background: none;
+          &:before{
+            content: none;
+          }
+          .cat-box{
+            .icon{
+              @extend .content-center;
+              width: 80px !important;
+              height: 80px !important;
+              border-radius: 50%;
+              margin: 0 auto 15px auto;
+              padding-bottom: 0;
+              transition: $transition-base;
+              span{
+                font-size: 36px;
+                color: $primary;
+                margin-bottom: 0;
+                transition: $transition-base;
+              }
+            }
+            .cat-info{
+              .cat-name{
+                font-size: 18px;
+                font-weight: 700;
+                color: $dark;
+              }
+              .badge{
+                margin-top: 15px;
+                color: #fff !important;
+              }
+            }
+          }
+        }
+      }
+      &:hover{
+        figure figcaption .cat-box .icon{
+          background: $primary !important;
+          span{
+            color: #fff !important;
+          }
+        }
+      }
+      &.atbd_category-default figure figcaption{
+        padding: 0;
+      }
+    }
+  }
+}

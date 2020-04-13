@@ -1,0 +1,111 @@
+
+---Downloaded files---
+The import files for: Elementor Demo Content were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/directorio
+Data file = C:\xampp\htdocs\directorio/wp-content/themes/direo/ocdi/elementor-content.xml
+Widget file = C:\xampp\htdocs\directorio/wp-content/themes/direo/ocdi/widgets.wie
+Customizer file = C:\xampp\htdocs\directorio/wp-content/themes/direo/ocdi/customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[WARNING] Failed to import "Gold Plan": Invalid post type atbdp_pricing_plans
+[WARNING] Failed to import "Basic Plan": Invalid post type atbdp_pricing_plans
+[WARNING] Failed to import "Super Plan": Invalid post type atbdp_pricing_plans
+
+
+------
+New AJAX call!
+[WARNING] Failed to import "Gold Plan": Invalid post type atbdp_pricing_plans
+[WARNING] Failed to import "Basic Plan": Invalid post type atbdp_pricing_plans
+[WARNING] Failed to import "Super Plan": Invalid post type atbdp_pricing_plans
+
+
+------
+New AJAX call!
+[WARNING] Failed to import "Gold Plan": Invalid post type atbdp_pricing_plans
+[WARNING] Failed to import "Basic Plan": Invalid post type atbdp_pricing_plans
+[WARNING] Failed to import "Super Plan": Invalid post type atbdp_pricing_plans
+
+
+------
+New AJAX call!
+[WARNING] Failed to import "Gold Plan": Invalid post type atbdp_pricing_plans
+[WARNING] Failed to import "Basic Plan": Invalid post type atbdp_pricing_plans
+[WARNING] Failed to import "Super Plan": Invalid post type atbdp_pricing_plans
+
+
+------
+New AJAX call!
+[WARNING] Failed to import "Gold Plan": Invalid post type atbdp_pricing_plans
+[WARNING] Failed to import "Basic Plan": Invalid post type atbdp_pricing_plans
+[WARNING] Failed to import "Super Plan": Invalid post type atbdp_pricing_plans
+
+
+------
+New AJAX call!
+[WARNING] Failed to import "Gold Plan": Invalid post type atbdp_pricing_plans
+[WARNING] Failed to import "Basic Plan": Invalid post type atbdp_pricing_plans
+[WARNING] Failed to import "Super Plan": Invalid post type atbdp_pricing_plans
+
+
+---Importing widgets---
+Single Listing Widgets : 
+
+Directorist - Author Info - Author Info - Imported
+Directorist - Claim Listing - Claim Now - Imported
+Directorist - Categories - Category with Icon - Imported
+Directorist - Tags - Tags Style - Imported
+Directorist - Map (Single Listing) - Sidebar Map - Imported
+Directorist - Video - Sidebar Video - Imported
+Directorist - Custom Contact Form - Sidebar Form - Imported
+
+All Listing Widgets  : 
+
+Directorist - Search Listings - Search Listing - Imported
+
+Shop Page Widgets : 
+
+Buscar - No Title - Widget already exists
+Entradas recientes - No Title - Widget already exists
+Comentarios recientes - No Title - Widget already exists
+
+Blog Widgets : 
+
+Archivos - No Title - Widget already exists
+Categorías - No Title - Widget already exists
+Meta - No Title - Widget already exists
+-[Search] - No Title - Imported
+-[Popular Blog] - Popular Post - Imported
+-[Latest Blog] - Recent Post - Imported
+Nube de etiquetas - Popular Tags - Imported
+-[Subscribe] - Stay Updated - Imported
+-[Social Icon] - Connect &amp; Follow - Imported
+
+Footer Widgets 1 : 
+
+Menú de Navegación - Helpful Links - Imported
+
+Footer Widgets 2 : 
+
+Menú de Navegación - Company Info - Imported
+
+Footer Widgets 3 : 
+
+-[Social Icon &amp; Title] - Connect with Us - Imported
+
+Footer Widgets 4 : 
+
+Texto - Direo on Mobile - Imported
+-[Button] - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

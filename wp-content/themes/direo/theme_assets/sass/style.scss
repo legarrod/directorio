@@ -1,0 +1,25 @@
+/*
+Theme Name: Direo
+Theme URI: https://aazztech.com/product/category/themes/wordpress/direo/
+Author: AazzTech
+Author URI: https://aazztech.com
+Version: 1.9.1
+Text Domain: direo
+License: GNU General Public License v2 or later
+License URI: https://aazztech.com/product/category/themes/wordpress/direo/
+Description: Direo - Smart and Powerful Directory & Listing WordPress Theme
+Tags: one-column, two-columns, right-sidebar, left-sidebar, flexible-header, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, sticky-post, threaded-comments, translation-ready
+ */
+
+@import "mixins/mixins";
+@import "general/general";
+@import "element/elements";
+@import "component/components";
+@import "modules/modules";
+
+@import "../../vendor_assets/css/bootstrap/config.bs";
+// theme specific scss
+@import "themes";
+
+// responsive styles
+@import "responsive";

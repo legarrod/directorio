@@ -1,0 +1,317 @@
+.modal-backdrop.show{
+  z-index: 1;
+}
+
+#modal-item-remove{
+  .modal-body{
+    & > span{
+      font-size: remy(75px);
+    }
+  }
+}
+
+#login_modal,
+#signup_modal,
+#moda_claim_listing{
+  .modal-header{
+    padding: remy(23px) remy(30px) remy(22px);
+    align-items: center;
+    .modal-title i{
+      font-size: remy(20px);
+      color: $light-gray;
+    }
+    .close{
+      width: 28px;
+      height: 28px;
+      padding: 0;
+      margin: 0;
+      background: rgba(#000,0.1);
+      border-radius: 50%;
+      color: rgba(#000, 0.5);
+      text-shadow: none;
+      opacity: 1;
+      transition: $transition-base;
+      font-size: 18px;
+      &:hover{
+        color: #fff;
+        background: $primary;
+      }
+      span{
+        position: relative;
+        top: -1px;
+      }
+    }
+  }
+  .modal-body{
+    padding: remy(30px);
+    .form-control,
+    .btn{
+      margin-bottom: remy(20px);
+    }
+    .form-excerpts{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .social-login{
+        text-align: center;
+        span, a{
+          display: inline-block;
+        }
+        p{
+          margin: remy(15px) 0 0 0;
+          a{
+            margin: 0 remy(5px);
+          }
+        }
+      }
+    }
+  }
+}
+
+#login_modal .modal-body .form-excerpts{
+  margin-top: 10px;
+}
+#login_modal{
+  .atbdp_login_form_shortcode{
+    padding: 0;
+  }
+  .recover-pass-form{
+    fieldset{
+      margin-top: 15px;
+    }
+    label{
+      display: block;
+      font-weight: 600;
+      margin-top: 15px;
+      color: $text-grey1;
+    }
+    input[type="text"]{
+      width: 100%;
+      border: 1px solid $border-color;
+      height: 45px;
+      padding: 0 15px;
+      margin-bottom: 15px;
+    }
+  }
+  .social-connector{
+     margin: 15px 0 0;
+   }
+  .social-login{
+    margin: 0 -3px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    a[class^="fb-"]{
+      flex: 1;
+    }
+  }
+  .status{
+    margin-top: -5px;
+    span.color-danger{
+      color: $danger;
+      background: rgba($danger, 0.1);
+      display: block;
+      padding: 7px 15px;
+      border-radius: 3px;
+    }
+    span.color-success{
+      color: $success;
+      background: rgba($success, 0.1);
+      display: block;
+      padding: 7px 15px;
+      border-radius: 3px;
+    }
+  }
+  .form-excerpts{
+    ul{
+      margin: 0;
+      li a{
+        font-weight: 600;
+        color: $dark;
+        &:hover{
+          color: $primary;
+        }
+      }
+    }
+    .recover-pass-link:hover{
+      color: $primary;
+    }
+  }
+}
+#signup_modal{
+  .directory_register_form_wrap{
+    padding:0;
+  }
+  .directory_regi_btn{
+    margin: 0;
+  }
+  .alert{
+    padding: 0;
+    margin: 0;
+    &.alert-danger, &.alert-success{
+      margin: 0 0 10px;
+    }
+    span{
+      display: block;
+      padding: 5px 10px;
+      border: 0 none;
+    }
+    p{
+      padding: 7px 15px;
+    }
+  }
+  .form-excerpts{
+    ul{
+      margin: 0;
+      li a{
+        font-weight: 600;
+        color: $dark;
+        &:hover{
+          color: $primary;
+        }
+      }
+    }
+  }
+  .social-connector{
+    margin: 0;
+  }
+  .social-login{
+    margin: 0 -3px 20px;
+    display: flex;
+    justify-content: center;
+    a[class^="fb-"]{
+      flex: 1;
+    }
+  }
+}
+
+#moda_claim_listing{
+  .modal-body{
+    .form-group{
+      margin-bottom: 0;
+      .btn{
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+#atbdp-report-abuse-modal{
+  .modal-dialog-centered::before{
+    content: none;
+  }
+  #atbdp-report-abuse-form{
+    width: 100%;
+  }
+  .modal-body{
+    padding: remy(25px) remy(30px);
+  }
+  .modal-dialog{
+    .modal-header{
+      padding-top: 0;
+      padding-right: 0;
+      h3{
+        font-size: 20px !important;
+        font-weight: 600 !important;
+      }
+      .close{
+        top: 30px !important;
+        right: 30px !important;
+      }
+    }
+    .modal-footer{
+      padding: 0;
+    }
+  }
+  .atm-contents-inner{
+    padding: 0;
+  }
+}
+
+//changing pricing plan modal
+#atpp-plan-change-modal .atm-contents-inner .dcl_pricing_plan input + label, #dwpp-plan-renew-modal .atm-contents-inner .dcl_pricing_plan input + label{
+  padding-left: 18px;
+}
+#atpp-plan-change-modal .atm-contents-inner .dcl_pricing_plan input + label:before,
+#dwpp-plan-renew-modal .atm-contents-inner .dcl_pricing_plan input + label:before{
+  left: -5px;
+}
+#atpp-plan-change-modal .atm-contents-inner .dcl_pricing_plan input:checked + label:before,
+#dwpp-plan-renew-modal .atm-contents-inner .dcl_pricing_plan input:checked + label:before{
+  border: 5px solid $primary;
+  left: -5px;
+}
+
+#atpp-plan-change-modal .atm-contents-inner .atbd_modal-footer .atbd_modal_btn, #dwpp-plan-renew-modal .atm-contents-inner .atbd_modal-footer .atbd_modal_btn{
+  margin-right: 0;
+  @extend .bg-primary;
+  border-color: $primary;
+}
+
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .modal-content .close span{
+  position: relative;
+  top: -2px;
+}
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .dcl_pricing_plan select{
+  height: 46px;
+  border: 1px solid $border-color;
+  border-radius: 3px;
+}
+.atbd_content_active .widget.atbd_widget + #dcl-claim-modal .modal-footer .btn{
+  background: $primary !important;
+  &:hover{
+    border-color: $primary !important;
+  }
+}
+
+.fb-login, .fb-google{
+  display: inline-block;
+  padding: 0 1.33rem;
+  line-height: 44px !important;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.az-fb-login-btn {
+  background: transparent;
+  color: #3b5999 !important;
+  border: 1px solid #3b5999 !important;
+  margin: 1rem 3px 0 !important;
+
+  &:hover{
+    background: #3b5999 !important;
+    border: 1px solid #3b5999;
+    color: $white !important;
+  }
+}
+
+.az-gg-login-btn {
+  background: transparent;
+  color: #dd4b39 !important;
+  border: 1px solid #dd4b39 !important;
+  margin: 1rem 3px 0 !important;
+
+  &:hover{
+    background: #dd4b39 !important;
+    color: $white !important;
+  }
+}
+
+#login_modal .modal-body .keep_signed {
+  text-align: left;
+}
+.atbd_content_active #directorist.atbd_wrapper .widget.atbd_widget .atbd_author_info_widget .atbd_widget_contact_info{
+  padding-top: 0;
+}
+.atbd_content_active #directorist.atbd_wrapper .widget.atbd_widget .atbd_author_info_widget .atbd_widget_contact_info ul li:last-child{
+  margin-bottom: 0 !important;
+}
+.atbd_content_active #directorist.atbd_wrapper .atbd_user_dashboard_nav ul{
+  border-bottom: 0;
+}
+#atpp-plan-change-modal .atm-contents-inner .at-modal-close,
+#dwpp-plan-renew-modal .atm-contents-inner .at-modal-close{
+  background: $primary;
+}

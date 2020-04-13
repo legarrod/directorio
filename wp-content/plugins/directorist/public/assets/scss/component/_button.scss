@@ -1,0 +1,39 @@
+.atbd_content_active #directorist.atbd_wrapper{
+  .btn{
+    font-size: 14px;
+    text-transform: capitalize;
+    &:hover{
+      background-image: none;
+    }
+  }
+  .atbd_upload_btn{
+    line-height: 48px;
+    display: inline-block;
+    padding: 0 20px;
+    span{
+      @extend .atbd_color-primary;
+      margin-right: 6px;
+    }
+    background: #f5f7fc;
+    color: #9299b8;
+  }
+}
+#directorist.atbd_wrapper{
+  .btn-sm {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+  .btn-outline-primary:hover,
+  .btn-outline-danger:hover{
+    color: #fff !important;
+  }
+  .btn-bordered{
+    background: none !important;
+    border: 1px solid #e3e6ef !important;
+    color: #7a82a6 !important;
+  }
+  .btn-bordered:hover{
+    background: none !important;
+    border-color: #444752 !important;
+  }
+}

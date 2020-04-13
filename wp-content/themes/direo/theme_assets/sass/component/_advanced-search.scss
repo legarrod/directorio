@@ -1,0 +1,20 @@
+.bads-tags{
+  .custom-checkbox .custom-control-label::before,
+  .custom-checkbox .custom-control-label::after{
+    content: none !important;
+  }
+}
+
+.ads-advanced .more-less,
+.ads-advanced .more-or-less,
+.search-area .more-less,
+.search-area .more-or-less{
+  font-size: 13px !important;
+  color: $primary !important;
+}
+.ads-advanced .bads-tags .custom-control{
+  margin: 2px 0;
+}
+.ads-advanced .price_ranges{
+  margin-bottom: 0 !important;
+}

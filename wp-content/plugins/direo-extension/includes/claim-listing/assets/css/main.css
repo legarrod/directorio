@@ -1,0 +1,222 @@
+
+.dcl_admin_claim{
+    margin-top: 10px;
+}
+.dcl_admin_claim > div{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.dcl_admin_claim > div label{
+    margin-left: 3px;
+}
+#directorist.atbd_wrapper .dcl_promo-item_group {
+    text-align: left;
+}
+#directorist.atbd_wrapper .dcl_promo-item_group .dcl_promo-item_title{
+    margin-bottom: 10px;
+}
+#directorist.atbd_wrapper .dcl_promo-item_group .dcl_promo-item_description{
+    margin-bottom: 20px;
+}
+
+#directorist.atbd_wrapper .dcl_promo-item_group .dcl_login_notice{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.dcl_claimed{
+    display: inline-block;
+    position: relative;
+    top: -6px;
+}
+.dcl_claimed .dcl_claimed--badge{
+    color: #32cc6f;
+    display: flex;
+    align-items: center;
+}
+.dcl_claimed .dcl_claimed--badge span{
+    color: #fff;
+    background: #32cc6f;
+    width: 17px;
+    height: 17px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 300px;
+    margin: -1px 5px 0 0;
+}
+.dcl_claimed .dcl_claimed--badge span .fa{
+    font-size: 8px !important;
+}
+.dcl_claimed .dcl_claimed--tooltip{
+    position: absolute;
+    width: 140px;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #444752;
+    color: #fff;
+    padding: 7px;
+    font-size: 13px;
+    margin-left: 15px;
+    border-radius: 3px;
+    line-height: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease;
+    text-align: center;
+    z-index: 1;
+}
+.dcl_claimed .dcl_claimed--tooltip::before{
+    content: '';
+    border-top: 7px solid transparent;
+    border-right: 10px solid #444752;
+    border-bottom: 7px solid transparent;
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.dcl_claimed:hover .dcl_claimed--tooltip{
+    opacity: 1;
+    visibility: visible;
+}
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .at-modal-xl{
+    max-width: 1140px;
+}
+
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .atm-contents-inner .modal-header{
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .atm-contents-inner .modal-body{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .atm-contents-inner .modal-body .form-group .dcl_plans{
+    display: inline-block;
+    margin-top: 7px;
+    color: #e23636;
+    font-size: 12px;
+}
+ .atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .atm-contents-inner .modal-body .form-group .dcl_plans:hover{
+     color: #DB3B30;
+ }
+ .atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .atm-contents-inner .modal-body .form-group label{
+    color: #272b41;
+    font-weight: 500;
+}
+
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .atm-contents-inner{
+    padding: 30px;
+    position: relative;
+}
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .atm-contents-inner .at-modal-close,
+.atbd_content_active #dcl-claim-modal .atm-contents-inner .at-modal-close{
+    width: 32px;
+    height: 32px;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    transform: none;
+    background: #444752;
+    color: #fff;
+    border-radius: 300px;
+    opacity: 1;
+    font-weight: 300;
+    z-index: 2;
+    font-size: 16px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .atm-contents-inner .close span{
+    display: block;
+    line-height: 0;
+}
+
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .atm-contents-inner .modal-footer{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .atm-contents-inner .modal-footer span{
+    display: block;
+    margin-top: 15px;
+    font-size: 13px;
+    margin-left: 0;
+}
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .atm-contents-inner .modal-footer span i{
+    display: inline-block;
+    margin-right: 5px;
+    color: #32cc6f;
+}
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .dcl_pricing_plan label{
+    display: block;
+}
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .dcl_pricing_plan select{
+    width: 100%;
+    cursor: pointer;
+}
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .dcl_pricing_plan select .dcl_active_plan{
+    color: #32cc6f;
+}
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .dcl_pricing_plan #dcl-plan-allowances{
+    margin-top: 15px;
+}
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .dcl_pricing_plan #dcl-plan-allowances .atbd_listing_type h4{
+    margin-bottom: 10px;
+}
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .dcl_pricing_plan #dcl-plan-allowances .atbd_listing_type label + label{
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .dcl_pricing_plan #dcl-plan-allowances .atbd_listing_type{
+    padding-bottom: 10px;
+}
+
+#dcl-claim-submit-notification.text-success{
+    color: #32cc6f;
+}
+
+#dcl-claim-warning-notification.text-warning{
+    color: #ffaf00;
+}
+
+
+@media (max-width:576px) {
+    .atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .at-modal-content{
+        top: 10%;
+        transform: none;
+    }
+    .dcl_claimed .dcl_claimed--tooltip{
+        left: 50%;
+        top: -10px;
+        transform: translate(-50%, -100%);
+        margin-left: 0;
+    }
+    .dcl_claimed .dcl_claimed--tooltip::before{
+        border-right: 7px solid transparent;
+        border-top: 10px solid #444752;
+        border-left: 7px solid transparent;
+        left: 50%;
+        top: auto;
+        transform: translateX(-50%);
+        bottom: -16px;
+    }
+}
+
+@media (max-width:767px) {
+    .atbd_content_active #directorist.atbd_wrapper #dcl-claim-modal .at-modal-content{
+        top: 10%;
+        transform: none;
+    }
+}

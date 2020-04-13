@@ -1,0 +1,28 @@
+@mixin padding_tb($top, $bottom){
+  padding-top: $top;
+  padding-bottom: $bottom;
+}
+
+@mixin radius($width){
+  -webkit-border-radius: remy($width);
+  -moz-border-radius: remy($width);
+  border-radius: remy($width);
+}
+
+.content-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* BEM Element and Modifier */
+@mixin e($element){
+  &__#{$element}{
+    @content;
+  }
+}
+@mixin m($modifier){
+  &--#{$modifier}{
+    @content;
+  }
+}

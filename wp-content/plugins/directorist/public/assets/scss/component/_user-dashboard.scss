@@ -1,0 +1,386 @@
+.atbd_content_active #directorist.atbd_wrapper {
+  .atbd_user_dashboard_nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+
+    .nav.nav-tabs, .nav_button {
+      margin: 10px 0;
+    }
+    .atbdp_tab_nav_wrapper{
+      flex: 1;
+      width: 55%;
+    }
+    .atbdp_tab_nav--content {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      border-bottom: 1px solid $border-color;
+      margin: 5px 0;
+      li {
+        margin: 0;
+        a {
+          border: 1px solid transparent;
+          border-radius: 3px 3px 0 0;
+          padding: 10px 15px;
+          background: none;
+          display: block;
+          &.tabItemActive {
+            border-color: $border-color;
+            border-bottom-color: transparent;
+          }
+
+          &:focus, &:active {
+            outline: 0;
+            background: none;
+          }
+        }
+        &.atbdp-tab-nav-last{
+          opacity: 0;
+          visibility: hidden;
+        }
+        &.atbdp-tab-nav-last.atbdp-nlc-active{
+          opacity: 1;
+          visibility: visible;
+        }
+        &.atbdp-tab-nav-last, &.atbdp_all_booking_nav{
+          position: relative;
+          ul{
+            visibility: hidden;
+            opacity: 0;
+            pointer-events: none;
+            position: absolute;
+            min-width: 130px;
+            top: 55px;
+            right: 0;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.13) !important;
+            z-index: 1;
+            background: #fff;
+            border-radius: 3px;
+            transition: 0.3s ease;
+            padding-top: 7px;
+            &.active{
+              visibility: visible;
+              opacity: 1;
+              pointer-events: all;
+              top: 45px;
+            }
+            li{
+              display: block;
+              width: 100%;
+              a{
+                padding-top: 0;
+                border: 0 none;
+              }
+              ul.active{
+                top: 0;
+                left: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    ul.tab_nav_slide {
+      margin-right: 30px;
+      li {
+        text-align: center;
+        a {
+          border: 0 none;
+          padding-left: 0;
+          padding-right: 0;
+          display: block;
+
+          &.tabItemActive {
+            border-bottom: 1px solid #2d2f36;
+            color: #2d2f36;
+          }
+        }
+      }
+
+      .slick-arrow {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        font-size: 13px;
+        color: #7a82a6;
+        z-index: 2;
+        background: #fff;
+        &.slick-prev {
+          left: 0;
+        }
+
+        &.slick-next {
+          right: 0;
+        }
+        &:before, &:after{
+          content: none;
+        }
+      }
+      .slick-list, .slick-track{
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+
+  &.dashboard_area {
+    .db_btn_area {
+      padding: 15px 10px;
+      border-top: 1px solid $border-color;
+      margin-top: 0;
+
+      .directory_edit_btn,
+      .directory_remove_btn{
+        font-size: 14px;
+        border-bottom: 1px solid transparent;
+        transition: 0.3s ease;
+        &:hover{
+          font-weight: 500;
+          border-bottom-color: $primary;
+        }
+      }
+      .directory_edit_btn{
+        margin-right: 15px;
+      }
+
+      &.db_btn_area--sm {
+        .btn {
+          line-height: 19px;
+          font-size: 13px;
+          padding-left: 8px;
+          padding-right: 8px;
+          margin: 0 2px;
+        }
+      }
+    }
+
+    .atbd_dashboard_title_metas {
+      padding: 15px 20px 10px;
+    }
+
+    .atbd_promote_btn_wrapper, #directorist-renew {
+      margin-bottom: 0;
+      & + div{
+        .directory_edit_btn{
+          background: none !important;
+          color: #7a82a6 !important;
+        }
+        .directory_remove_btn{
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+    }
+
+    .atbd_listing_bottom_content {
+      .listing-meta p span {
+        font-weight: 500;
+        color: $primary;
+      }
+    }
+
+    .atbd_single_listing{
+      .atbd_listing_info .atbd_content_upper {
+        padding: 0;
+      }
+      .atbd_listing_bottom_content{
+        border-top: 0 none;
+        padding: 0;
+        border-radius: 0 0 5px 5px;
+        .listing-meta{
+          width: 100%;
+          .listing-meta-content{
+            padding: 0 20px 15px;
+          }
+          .atbdp-mark-as-sold{
+            padding: 15px 20px 10px;
+            border-top: 1px solid #E9E9E9;
+            p{
+              label{
+                margin-bottom: 0;
+              }
+            }
+          }
+          .db_btn_area{
+            background: #F7F8F9;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            border-top: 0 none;
+            padding: 12px 20px;
+          }
+          p{
+            color: #444752;
+            font-weight: 500;
+            span{
+              color: #7A82A6;
+              &.atbdp__private,
+              &.atbdp__published,
+              &.atbdp__pending{
+                line-height: 24px;
+                display: inline-block;
+                font-size: 12px;
+                font-weight: 500;
+                padding: 0 10px;
+                border-radius: 12px;
+                margin-top: 9px;
+              }
+              &.atbdp__published{
+                background: rgba($success, 0.1);
+                color: $success;
+              }
+              &.atbdp__pending{
+                background: rgba($warning, 0.1);
+                color: $warning;
+              }
+              &.atbdp__private{
+                background: rgba($info, 0.1);
+                color: $info;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .user_pro_img_area {
+      .user_img {
+        position: relative;
+
+        #remove_pro_pic {
+          position: absolute;
+          z-index: 1;
+          right: 0;
+          background: $danger;
+          color: #fff;
+          padding: 3px 10px;
+          transition: $transition-base;
+          border-radius: 2px;
+          cursor: pointer;
+        }
+
+        .choose_btn {
+          position: absolute;
+          width: 100%;
+          bottom: 0;
+          z-index: 1;
+          text-align: center;
+
+          #upload_pro_pic {
+            margin-bottom: 0;
+            @extend .atbd_bg-primary;
+            color: $light;
+            padding: 8px 20px;
+            transition: $transition-base;
+            border-radius: 2px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    #profile_pic_container {
+      img {
+        width: 100%;
+      }
+    }
+
+    #pro_notice {
+      display: block;
+      margin-top: 25px;
+      padding: 0 !important;
+    }
+
+    .atbd_single_listing {
+      .atbd_listing_bottom_content {
+        .listing-meta {
+          p:first-child {
+            line-height: 20px;
+            margin-bottom: 2px;
+          }
+        }
+      }
+    }
+  }
+
+  .atbd_saved_items_wrapper {
+    .atbd_single_saved_item {
+      border-bottom: 1px solid $border-color;
+      padding: 20px 0;
+
+      tbody {
+        tr {
+          .thumb_title {
+            width: 60%;
+          }
+
+          .saved_item_category {
+            width: 40%;
+          }
+        }
+      }
+    }
+
+    .thumb_title {
+      .img_wrapper {
+        display: table;
+        vertical-align: middle;
+
+        img {
+          width: 72px;
+          object-fit: cover;
+        }
+
+        & > a {
+          display: table-cell;
+          padding-right: 10px;
+          width: 82px;
+          vertical-align: middle;
+        }
+      }
+
+      h4 {
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+
+    td {
+      vertical-align: middle;
+      text-align: left;
+    }
+
+    .saved_item_category {
+      vertical-align: middle;
+
+      a {
+        span {
+          font-size: 16px;
+          margin-right: 6px;
+        }
+      }
+    }
+  }
+}
+
+#directorist.atbd_wrapper .user_info_wrap {
+  .form-group {
+    margin-bottom: 25px;
+
+    label {
+      margin-bottom: 4px;
+    }
+
+    .form-control {
+      padding: 10px 15px;
+    }
+  }
+}

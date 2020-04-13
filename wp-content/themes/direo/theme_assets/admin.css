@@ -1,0 +1,52 @@
+
+.group-separation {
+    border: 1px solid #0073aa;
+    margin-bottom: 30px;
+    padding: 5px 10px 10px;
+}
+
+[class^="la-"], [class*=" la-"], [class^="la-"]:before, [class*=" la-"]:before {
+    font-family: 'LineAwesome', sans-serif;
+    font-style: normal !important;
+
+}
+
+.csf_custom_date {
+    margin-top: 0;
+    display: inline-block;
+    padding: 0px 10px;
+    margin: 0;
+}
+
+.pika-single.is-bound {
+    z-index: 100105 !important;
+}
+
+.wp-admin #setting-error-tgmpa {
+    background: #ffd76d;
+    border-left-color: #ff0000;
+}
+
+.wp-admin #setting-error-tgmpa span em {
+    color: #ff0000;
+}
+.direo_importer_notice{
+    background: #ffd76d;
+    border-left-color: #ff0000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.direo_importer_notice a {
+    font-weight: bold;
+}
+
+.direo_demo_text {
+    color:  #ff0000;
+    font-size: 20px;
+    background: #ffd76d;
+    padding: 30px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    font-weight: 500;
+    border-left: 4px solid #ff0000;
+}
